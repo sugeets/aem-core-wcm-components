@@ -4203,8 +4203,44 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Free';
   font-weight: 900; }
 
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('clientlib-fonts/resources/vendor/adobe-fonts/source-code-pro-v11-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Source Code Pro Regular'), local('SourceCodePro-Regular'),
+    url('clientlib-fonts/resources/vendor/adobe-fonts/source-code-pro-v11-latin-regular.eot%3F') format('embedded-opentype'), /* IE6-IE8 */
+    url('clientlib-fonts/resources/vendor/adobe-fonts/source-code-pro-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('clientlib-fonts/resources/vendor/adobe-fonts/source-code-pro-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('clientlib-fonts/resources/vendor/adobe-fonts/source-code-pro-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('clientlib-fonts/resources/vendor/adobe-fonts/source-code-pro-v11-latin-regular.svg') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('clientlib-fonts/resources/vendor/adobe-fonts/source-sans-pro-v13-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'),
+    url('clientlib-fonts/resources/vendor/adobe-fonts/source-sans-pro-v13-latin-regular.eot%3F') format('embedded-opentype'), /* IE6-IE8 */
+    url('clientlib-fonts/resources/vendor/adobe-fonts/source-sans-pro-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('clientlib-fonts/resources/vendor/adobe-fonts/source-sans-pro-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('clientlib-fonts/resources/vendor/adobe-fonts/source-sans-pro-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('clientlib-fonts/resources/vendor/adobe-fonts/source-sans-pro-v13-latin-regular.svg') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: url('clientlib-fonts/resources/vendor/adobe-fonts/source-sans-pro-v13-latin-700.eot'); /* IE9 Compat Modes */
+    src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'),
+    url('clientlib-fonts/resources/vendor/adobe-fonts/source-sans-pro-v13-latin-700.eot%3F') format('embedded-opentype'), /* IE6-IE8 */
+    url('clientlib-fonts/resources/vendor/adobe-fonts/source-sans-pro-v13-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('clientlib-fonts/resources/vendor/adobe-fonts/source-sans-pro-v13-latin-700.woff') format('woff'), /* Modern Browsers */
+    url('clientlib-fonts/resources/vendor/adobe-fonts/source-sans-pro-v13-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('clientlib-fonts/resources/vendor/adobe-fonts/source-sans-pro-v13-latin-700.svg') format('svg'); /* Legacy iOS */
+}
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -4234,7 +4270,7 @@ readers do not read off random characters that represent icons */
 }
 
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -4271,7 +4307,7 @@ readers do not read off random characters that represent icons */
 }
 
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -4323,7 +4359,7 @@ readers do not read off random characters that represent icons */
 }
 
 /*
- *  Copyright 2017 Adobe Systems Incorporated
+ *  Copyright 2017 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -4343,7 +4379,7 @@ readers do not read off random characters that represent icons */
 }
 
 /*
- *  Copyright 2017 Adobe Systems Incorporated
+ *  Copyright 2017 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -4369,7 +4405,7 @@ readers do not read off random characters that represent icons */
 }
 
 /*
- *  Copyright 2017 Adobe Systems Incorporated
+ *  Copyright 2017 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -4813,7 +4849,7 @@ template {
 }
 
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -4828,7 +4864,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -4843,7 +4879,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -4858,7 +4894,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -4876,7 +4912,7 @@ template {
   Vendor prefix for the appearance property.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -4891,7 +4927,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -4906,7 +4942,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -4932,7 +4968,7 @@ template {
  * }
   */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -4947,7 +4983,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -4962,7 +4998,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -4977,7 +5013,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -4997,8 +5033,28 @@ template {
   font-weight: 400;
   src: local('Material Icons'), local('MaterialIcons-Regular'), url('clientlib-themes/core-components-clean/resources/fonts/material-icons.woff2') format('woff2'), url('clientlib-themes/core-components-clean/resources/fonts/material-icons.woff') format('woff'), url('clientlib-themes/core-components-clean/resources/fonts/material-icons.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('clientlib-themes/core-components-clean/resources/fonts/roboto-v20-latin-regular.eot');
+  src: local('Roboto'), local('Roboto-Regular'), url('clientlib-themes/core-components-clean/resources/fonts/roboto-v20-latin-regular.eot%3F') format('embedded-opentype'), /* IE6-IE8 */ url('clientlib-themes/core-components-clean/resources/fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('clientlib-themes/core-components-clean/resources/fonts/roboto-v20-latin-regular.woff') format('woff'), /* Modern Browsers */ url('clientlib-themes/core-components-clean/resources/fonts/roboto-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('clientlib-themes/core-components-clean/resources/fonts/roboto-v20-latin-regular.svg') format('svg');
+  
+  /* IE9 Compat Modes */
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url('clientlib-themes/core-components-clean/resources/fonts/roboto-slab-v9-latin-regular.eot');
+  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url('clientlib-themes/core-components-clean/resources/fonts/roboto-slab-v9-latin-regular.eot%3F') format('embedded-opentype'), /* IE6-IE8 */ url('clientlib-themes/core-components-clean/resources/fonts/roboto-slab-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('clientlib-themes/core-components-clean/resources/fonts/roboto-slab-v9-latin-regular.woff') format('woff'), /* Modern Browsers */ url('clientlib-themes/core-components-clean/resources/fonts/roboto-slab-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('clientlib-themes/core-components-clean/resources/fonts/roboto-slab-v9-latin-regular.svg') format('svg');
+  
+  /* IE9 Compat Modes */
+  /* Legacy iOS */
+}
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5020,7 +5076,7 @@ template {
   -moz-osx-font-smoothing: grayscale;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5039,7 +5095,7 @@ template {
   color: #232323;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5058,7 +5114,7 @@ template {
   color: #f5f5f5;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5073,7 +5129,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5088,7 +5144,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5154,7 +5210,7 @@ template {
   padding: 0.75rem 0;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5179,7 +5235,7 @@ template {
   color: #232323;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5204,7 +5260,7 @@ template {
   color: #f5f5f5;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5219,7 +5275,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5268,7 +5324,7 @@ template {
   text-decoration: none;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5292,7 +5348,7 @@ template {
   color: #232323;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5316,7 +5372,7 @@ template {
   color: #f5f5f5;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5331,7 +5387,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5394,7 +5450,7 @@ template {
   }
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5417,7 +5473,7 @@ template {
   color: #232323;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5440,7 +5496,7 @@ template {
   color: #ffffff;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5455,7 +5511,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5580,7 +5636,7 @@ template {
   display: none;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5607,7 +5663,7 @@ template {
   background-color: #232323;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5634,7 +5690,7 @@ template {
   background-color: #f5f5f5;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5649,7 +5705,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5723,7 +5779,7 @@ template {
   }
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5753,7 +5809,7 @@ template {
   color: #232323;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5768,7 +5824,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5793,7 +5849,7 @@ template {
   margin: 0.75rem 0;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5811,7 +5867,7 @@ template {
   color: #737373;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5829,7 +5885,7 @@ template {
   color: #737373;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5844,7 +5900,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5898,7 +5954,7 @@ template {
   margin-left: 0.5rem;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5927,7 +5983,7 @@ template {
   color: #232323;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5956,7 +6012,7 @@ template {
   color: #f5f5f5;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5971,7 +6027,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -5993,7 +6049,7 @@ template {
   border: 0;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6011,7 +6067,7 @@ template {
   background-color: #e1e1e1;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6029,7 +6085,7 @@ template {
   background-color: #505050;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6044,7 +6100,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6085,7 +6141,7 @@ template {
   display: block;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6113,7 +6169,7 @@ template {
   color: #232323;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6141,7 +6197,7 @@ template {
   color: #f5f5f5;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6156,7 +6212,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6232,7 +6288,7 @@ template {
   }
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6269,7 +6325,7 @@ template {
   color: #e1e1e1;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6305,7 +6361,7 @@ template {
   color: #e1e1e1;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6320,7 +6376,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6378,7 +6434,7 @@ template {
   border-bottom: 0.125rem solid;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6397,7 +6453,7 @@ template {
   border-color: #e1e1e1;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6416,7 +6472,7 @@ template {
   border-color: #505050;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6431,7 +6487,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6470,7 +6526,7 @@ template {
   text-decoration: none;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6491,7 +6547,7 @@ template {
   color: #1267cf;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6514,7 +6570,7 @@ template {
 
 @import 'http://localhost:4503/etc.clientlibs/core-components-examples/clientlibs/vendor/normalize.css';
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6529,7 +6585,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6544,7 +6600,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6559,7 +6615,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6585,7 +6641,7 @@ template {
  * }
   */
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6600,7 +6656,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6615,7 +6671,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6630,7 +6686,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6645,7 +6701,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6660,7 +6716,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6675,7 +6731,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6690,7 +6746,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6708,7 +6764,7 @@ template {
   Vendor prefix for the appearance property.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6726,7 +6782,7 @@ template {
   Vendor prefix for the user-select property.
  */
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6750,7 +6806,7 @@ template {
   Vendor prefixes for transitioning transform properties.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6774,7 +6830,7 @@ template {
   Vendor prefix for the grid template rows property.
  */
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6789,7 +6845,7 @@ template {
  *  limitations under the License.
  */
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6841,7 +6897,7 @@ a:focus {
   outline: none;
 }
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6931,7 +6987,7 @@ pre.prettyprint .fun {
   color: #d7373f;
 }
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6946,7 +7002,7 @@ pre.prettyprint .fun {
  *  limitations under the License.
  */
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -6993,7 +7049,7 @@ pre.prettyprint .fun {
 /* Generates all the rules for the grids and columns */
 /* API function to be called to generate a grid config */
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -13688,7 +13744,7 @@ pre.prettyprint .fun {
   }
 }
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -13864,7 +13920,7 @@ pre.prettyprint .fun {
   }
 }
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -13879,7 +13935,7 @@ pre.prettyprint .fun {
  *  limitations under the License.
  */
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -13914,7 +13970,7 @@ pre.prettyprint .fun {
   display: none;
 }
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -13961,7 +14017,7 @@ pre.prettyprint .fun {
   display: block;
 }
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -14049,7 +14105,7 @@ pre.prettyprint .fun {
   }
 }
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -14124,7 +14180,7 @@ pre.prettyprint .fun {
   margin-bottom: 2.5rem;
 }
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -14172,7 +14228,7 @@ pre.prettyprint .fun {
   margin: 0 0 1rem 0;
 }
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -14336,7 +14392,7 @@ pre.prettyprint .fun {
   font-style: italic;
 }
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -14386,7 +14442,7 @@ pre.prettyprint .fun {
   background-color: #f4f4f4;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -14408,7 +14464,7 @@ pre.prettyprint .fun {
   background-color: #eaeaea;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -14461,7 +14517,7 @@ pre.prettyprint .fun {
   display: none;
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -14481,7 +14537,7 @@ pre.prettyprint .fun {
   }
 }
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -14606,7 +14662,7 @@ pre.prettyprint .fun {
   border-color: #323232;
 }
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -14649,7 +14705,7 @@ pre.prettyprint .fun {
   }
 }
 /*
- *  Copyright 2019 Adobe Systems Incorporated
+ *  Copyright 2019 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.

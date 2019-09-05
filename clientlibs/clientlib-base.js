@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright 2019 Adobe Systems Incorporated
+ * Copyright 2019 Adobe
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -45,7 +45,7 @@ if (!Element.prototype.closest) {
 }
 
 /*******************************************************************************
- * Copyright 2019 Adobe Systems Incorporated
+ * Copyright 2019 Adobe
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -558,7 +558,7 @@ if (!Element.prototype.closest) {
 }());
 
 /*******************************************************************************
- * Copyright 2018 Adobe Systems Incorporated
+ * Copyright 2018 Adobe
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -604,7 +604,7 @@ if (!Element.prototype.closest) {
 }
 
 /*******************************************************************************
- * Copyright 2018 Adobe Systems Incorporated
+ * Copyright 2018 Adobe
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -951,7 +951,7 @@ if (!Element.prototype.closest) {
 }());
 
 /*******************************************************************************
- * Copyright 2018 Adobe Systems Incorporated
+ * Copyright 2018 Adobe
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -1571,7 +1571,7 @@ if (!Element.prototype.closest) {
 }());
 
 /*******************************************************************************
- * Copyright 2017 Adobe Systems Incorporated
+ * Copyright 2017 Adobe
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -1663,7 +1663,7 @@ if (!Object.assign) {
 })([Element.prototype, CharacterData.prototype, DocumentType.prototype]);
 
 /*******************************************************************************
- * Copyright 2016 Adobe Systems Incorporated
+ * Copyright 2016 Adobe
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -2052,7 +2052,7 @@ if (!Object.assign) {
 })();
 
 /*******************************************************************************
- * Copyright 2017 Adobe Systems Incorporated
+ * Copyright 2017 Adobe
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -2516,7 +2516,7 @@ if (!Object.assign) {
 })();
 
 /*******************************************************************************
- * Copyright 2016 Adobe Systems Incorporated
+ * Copyright 2016 Adobe
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -7150,7 +7150,7 @@ if (!('Promise' in globalNS)) {
 })));
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- ~ Copyright 2018 Adobe Systems Incorporated
+ ~ Copyright 2018 Adobe
  ~
  ~ Licensed under the Apache License, Version 2.0 (the "License");
  ~ you may not use this file except in compliance with the License.
@@ -7171,7 +7171,7 @@ if (!('Promise' in globalNS)) {
 })();
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- ~ Copyright 2018 Adobe Systems Incorporated
+ ~ Copyright 2018 Adobe
  ~
  ~ Licensed under the Apache License, Version 2.0 (the "License");
  ~ you may not use this file except in compliance with the License.
@@ -7232,7 +7232,7 @@ if (!('Promise' in globalNS)) {
 })();
 
 /*
- *  Copyright 2018 Adobe Systems Incorporated
+ *  Copyright 2018 Adobe
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -7302,7 +7302,7 @@ if (!('Promise' in globalNS)) {
 })();
 
 /*******************************************************************************
- * Copyright 2018 Adobe Systems Incorporated
+ * Copyright 2018 Adobe
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -7463,7 +7463,7 @@ if (!('Promise' in globalNS)) {
 }(Promise, PR, html_beautify));
 
 /*******************************************************************************
- * Copyright 2019 Adobe Systems Incorporated
+ * Copyright 2019 Adobe
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
