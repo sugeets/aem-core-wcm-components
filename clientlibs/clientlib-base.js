@@ -7410,7 +7410,11 @@ if (!('Promise' in globalNS)) {
             }
 
             if (markup) {
-                markup.innerHTML = escapeHtml(htmlBeautify(markup.innerHTML, { 'preserve_newlines': false, 'indent_size': 2 }));
+                try {
+                    markup.innerHTML = escapeHtml(htmlBeautify(markup.innerHTML, { 'preserve_newlines': false, 'indent_size': 2 }));
+                } catch (err) {
+                    markup.innerHTML = escapeHtml(markup.innerHTML);
+                }
             }
 
             if (hideCode) {
