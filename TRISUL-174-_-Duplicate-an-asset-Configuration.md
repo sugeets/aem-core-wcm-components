@@ -41,7 +41,14 @@
 </td><td style="" class="3D&quot;confluenceTd&quot;"><p>/content/dam/west-elm=</p><p>APR_EDAM_WE_ADMINS,</p><p>APR_EDAM_WE_PRODUCTION</p></td>
 </tr>
 <tr>
-<td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><span style="">buttonLabel</span></td>
+<td style="" class="3D&quot;confluenceTd&quot;"><span style=""><span style="">buttonLabel</span></span></td>
+<td style="" class="3D&quot;confluenceTd&quot;"><p>Duplicate</p>
+</td><td style="" class="3D&quot;confluenceTd&quot;"><p>Duplicate</p></td>
+<td style="" class="3D&quot;confluenceTd&quot;"><p>Duplicate</p>
+</td><td style="" class="3D&quot;confluenceTd&quot;"><p>Duplicate</p></td>
+</tr>
+<tr>
+<td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><span style=""></span></td>
 <td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;">Duplicate</td>
 <td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;">Duplicate</td>
 <td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;">Duplicate</td>
