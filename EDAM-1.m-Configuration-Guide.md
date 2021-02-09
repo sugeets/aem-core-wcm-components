@@ -68,14 +68,15 @@ ized for EDAM 1.m project. Below is an example for reference ONLY.
 > <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">NA &lt;no value provided&gt;</span></td>
 > </tr>
 > <tr>
-> <td style="" colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><p><span style="">oauth.accesstoken.expiry</span></td>
-> <td style="" colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><p><span style="">NA &lt;no value provided&gt;</span></td>
-> <td style="" colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;no value provided&gt;</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">oauth.accesstoken.expiry</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">NA &lt;no value provided&gt;</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">NA &lt;no value provided&gt;</span></td>
 > <td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;no value provided&gt;</span></td>
 > <td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;no value provided&gt;</span></td>
-> <td style="" colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><p><span style="">NA &lt;no value provided&gt;</span></td>
-> <td style="" colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;no value provided&gt;</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">NA &lt;no value provided&gt;</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">NA &lt;no value provided&gt;</span></td>
 > </tr>
+
 > </tbody>
 > </table>
 > </div>> **
