@@ -58,7 +58,7 @@ ized for EDAM 1.b project. Below is an example for reference ONLY.
 > </table>
 > </div>
 > <p class="3D&quot;auto-cursor-target&quot;"><strong>Story :</strong></p>
-> <p class="3D&quot;auto-cursor-target&quot;"><strong> <span class="3D&quot;jira-issue" resolved=" data-jira-key=3D" trisul-885"=""> [![](3D"https://jira.w=)TRISUL-885](3D"https://jira.wsgc.com/browse/TRI=) - <span class="3D&quot;summary&quot;">MG Rollout - Setup Groups and Permissions</span> <span class="3D&quot;aui-lozenge" aui-lozenge-subtle="aui-lozenge-success" jira-macro-single-issue-export-pdf"="">Closed</span> </span> &nbsp;</strong></p><strong>
+> <p class="3D&quot;auto-cursor-target&quot;"><strong> <span class="3D&quot;jira-issue" resolved=" data-jira-key=3D" trisul-885"=""> TRISUL-885 - MG Rollout - Setup Groups and Permissions Closed</span> </span> &nbsp;</strong></p><strong>
 > <p class="3D&quot;auto-cursor-target&quot;"><strong><span style="">MG Rollout - Setup Groups and Permissions</span></strong></p>
 > <p class="3D&quot;auto-cursor-target&quot;"><span style=""><span= style="">ThirdPartyContributorConfig for MG DEV environment :</span=></span></p>
 > <p>  
