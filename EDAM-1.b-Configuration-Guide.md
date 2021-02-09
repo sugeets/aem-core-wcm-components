@@ -107,7 +107,7 @@ ized for EDAM 1.b project. Below is an example for reference ONLY.
 > <td style="" class="3D&quot;confluenceTd&quot;">APR_EDAM_DEV_MG_3rdPartyContributor</td>
 > </tr>
 > <tr>
-> <td style="" class="3D&quot;confluenceTd&quot;">other.allowed.groups=
+> <td style="" class="3D&quot;confluenceTd&quot;">other.allowed.groups
 > </td>
 > <td style="" class="3D&quot;confluenceTd&quot;">APR_EDAM_DEV_MG_Production</td>
 > </tr>
