@@ -15,9 +15,9 @@ yToEdamPostProcessor** **:**</span>
 - <span style="">Search for "**WS Legacy Asset Migtation Utility Configuration**" and click on it.</span>
 - <span style="">Following is config param descriptions for&nbsp;**com.wsgc.ecommerce.edam.core.processors.WsiLegacyToEdamPostProcessor**&nbsp; -</span>
 
-<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&amp;nbsp;&nbsp;&nbsp;&nbsp; **metadataMappingConfigJson** -&nbsp; contains a list of mappings of metadata properties of Legacy DAM assets to EDAM metadata properties.&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **metadataMappingConfigJson** -&nbsp; contains a list of mappings of metadata properties of Legacy DAM assets to EDAM metadata properties.&nbsp;&nbsp;&nbsp;&nbsp;</span>
 
-<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&amp;nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="">F</span><span style=""><span style="" r="gb(122,134,154);&quot;">ollowing is the value that needs to be configured :</span></span>
+<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="">Following is the value that needs to be configured :</span>
 <pre>[<br>{<br>"inputMeta": "wsm:Year",<br>"inputType": "String",<br>"outputMeta": "wsi:year",<br>"outputType": "String",<br>"outputMulti": "no",<br>"=
 defaultValue":""<br>},<br>{<br>"inputMeta": "wsm:Season",<br>"inputType": "String",<br>"outputMeta": "wsi:season",<br>"outputType": "String",<br>"outp=
 utMulti": "no",<br>"defaultValue":""<br>},<br>{<br>"inputMeta": "wsm:Channel",<br>"inputType": "String",<br>"outputMeta": "wsi:channels",<br>"outputTy=
