@@ -47,13 +47,7 @@
 <td style="" class="3D&quot;confluenceTd&quot;"><p>Duplicate</p>
 </td><td style="" class="3D&quot;confluenceTd&quot;"><p>Duplicate</p></td>
 </tr>
-<tr>
-<td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><span style=""></span></td>
-<td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;">Duplicate</td>
-<td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;">Duplicate</td>
-<td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;">Duplicate</td>
-<td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;">Duplicate</td>
-</tr>
+
 </tbody>
 </table>
 </div>
