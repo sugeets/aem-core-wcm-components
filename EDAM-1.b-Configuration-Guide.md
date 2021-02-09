@@ -12,11 +12,10 @@ ized for EDAM 1.b project. Below is an example for reference ONLY.
 > 
 > **Story :**
 > 
-> **<span style=""> <span class="3D&quot;jira-issue" resolved"="" data-jira-key="3D&quot;TRISUL-859&quot;"> [<im= g="" class="3D&quot;icon&quot;" src="3D&quot;https://jira.wsgc.com/secure/viewavatar?size=3Dxsma=">TRISUL-859</im=>]() - <span class="3D&quot;summary&quot;">MG &amp; RJ Rollout - High Resolution Threshold</span> <s= pan="" class="3D&quot;aui-lozenge" aui-lozenge-subtle="" aui-lozenge-success="" jira-macro-single-issue-export-pdf"="">Closed</s=></span> </span>**
+> **<p><strong><span style="">TRISUL-859 MG &amp; RJ Rollout - High Resolution Threshold Closed</span></strong></p>**
 > 
 > **
-> <p><strong><span style="">Config Name : High Resolut=
-> ion listener config</span></strong></p>
+> <p><strong><span style="">Config Name : High Resolution listener config</span></strong></p>
 > <div class="3D&quot;table-wrap&quot;">
 > <table class="3D&quot;wrapped" confluencetable"="" style="">
 > <colgroup>
