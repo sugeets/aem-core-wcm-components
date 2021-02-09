@@ -16,27 +16,15 @@ ized for EDAM 1.m project. Below is an example for reference ONLY.
 > 
 > **
 > <p><span style=""><strong>MCP Service Configurati=
-> on(</strong><strong>com.wsgc.ecommerce.edam.core.services.impl.McpAuthServi=
-> ceImpl):</strong></span></p>
+> on(</strong><strong>com.wsgc.ecommerce.edam.core.services.impl.McpAuthServiceImpl):</strong></span></p>
 > <ul>
-> <li><span style="">This custom configuration cont=
-> ains MCP Service Configuration mapping for Authorizing Token locally for pr=
-> e-validated tokens.</span></li>
-> <li><span style="">Navigate to AEM web console (i=
-> .e. [hostname]:[portnumber]/system/console/configMgr)</span></li>
-> <li><span style="">Search for "MCP Service Config=
-> uration" and click on it.</span></li>
-> <li><p><span style="">Following are config param =
-> descriptions for&nbsp;MCP Service Configuration &nbsp;-</span>  
-> <span sty="le=3D&quot;color:">mcp.accesstoken.scopes &nbsp;contains a lis=
-> t of authorization scopes.</span>  
-> <span style="">oauth.accesstoken contains the most recent access token validated agains=
-> t OAuth server with valid authorization scope matching. This is a run-time =
-> value.</span>  
-> <span style="">oauth.accesstoken=
-> .expiry&nbsp;contains the expiry epoch of the last verified access token an=
-> d this value can't be configured by user and its run time value.</span></p>=
-> </li>
+> <li><span style="">This custom configuration contains MCP Service Configuration mapping for Authorizing Token locally for pre-validated tokens.</span></li>
+> <li><span style="">Navigate to AEM web console (i.e. [hostname]:[portnumber]/system/console/configMgr)</span></li>
+> <li><span style="">Search for "MCP Service Configuration" and click on it.</span></li>
+> <li><p><span style="">Following are config param descriptions for&nbsp;MCP Service Configuration &nbsp;-</span>  
+> <span sty="le=3D&quot;color:">mcp.accesstoken.scopes &nbsp;contains a list of authorization scopes.</span>  
+> <span style="">oauth.accesstoken contains the most recent access token validated against OAuth server with valid authorization scope matching. This is a run-time value.</span>  
+> <span style="">oauth.accesstoken.expiry&nbsp;contains the expiry epoch of the last verified access token and this value can't be configured by user and its run time value.</span></p></li>
 > </ul>
 > <div class="3D&quot;table-wrap&quot;">
 > <table class="3D&quot;relative-table" confluencetable"="" style="">
