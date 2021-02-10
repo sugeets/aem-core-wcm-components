@@ -15,7 +15,7 @@
 - **Color Profile Options**: This is to set&nbsp;Output Color Profile List and configured with the path. Pattren would be &lt;&lt;Color Profile Label&gt;&gt;|&lt;&lt;Color Profile Path&gt;&gt;
 
 <div class="3D&quot;table-wrap&quot;">
-<table class="3D&quot;relative-table" confluencetable="" style="">
+<table class="3D&quot;relative-table" style="">
 <colgroup>
 <col style="">
 <col style="">
