@@ -594,9 +594,9 @@ Following are config param name and corresponding values for WE,PB Main, Kids, T
 </tbody>
 </table>
 </div>
-<span style="">UAT&nbsp;<u>*<strong>:</strong>*</u></span>
+<span style="">UAT&nbsp;<u><strong>:</strong></u></span>
 
-**<div class="3D&quot;table-wrap&quot;">
+<div class="3D&quot;table-wrap&quot;">
 <table class="3D&quot;wrapped" >
 <colgroup>
 <col>
@@ -620,7 +620,7 @@ ANTS,APR_EDAM_UAT_WE_GENERAL,APR_EDAM_UAT_WE_VENDORS
 </div>
 <p>  
 </p>
-<p><span style=""><em>PROD</em><u><em><strong> :&lt;/strong&gt;</strong></em></u></span></p><strong>
+<p><span style=""><em>PROD</em><u><em> :</em></u></span></p>
 <div class="3D&quot;table-wrap&quot;">
 <table class="3D&quot;wrapped" >
 <colgroup>
@@ -783,5 +783,5 @@ wsi:isHighResolution=Is High Resolution&lt;br&gt;wsi:product-name=Product Name#P
 </tbody>
 </table>
 </div>
-    </strong>** **<strong>
+   </div> ** **<strong>
 </strong>**
