@@ -15,7 +15,7 @@
     <span style="">buttonLabel contains a duplicate button label.</span></span>
 
 <div class="3D&quot;table-wrap&quot;">
-<table class="3D&quot;relative-table" confluencetable"="" style="">
+<table class="3D&quot;relative-table"  style="">
 <colgroup>
 <col style="">
 <col style="">
@@ -25,11 +25,11 @@
 </colgroup>
 <thead>
 <tr>
-<th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" lor:="">&nbsp;Config Param</span></p></th>
-<th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" lor:="">Config Value(Dev)</span></p></th>
-<th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" lor:="">Config Value(QA)</span></p></th>
-<th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" lor:="">Config Value(UAT)</span></p></th>
-<th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" lor:="">Config Value(PROD)</span></p></th>
+<th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >&nbsp;Config Param</span></p></th>
+<th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Value(Dev)</span></p></th>
+<th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Value(QA)</span></p></th>
+<th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Value(UAT)</span></p></th>
+<th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Value(PROD)</span></p></th>
 </tr>
 </thead>
 <tbody>
