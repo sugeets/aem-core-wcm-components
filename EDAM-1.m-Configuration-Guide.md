@@ -10,11 +10,11 @@ The following document contains the list of configurations that are util=
 ized for EDAM 1.m project. Below is an example for reference ONLY.
 > 
 > 
-> <span style=""><u>*<strong>EXAMPLE</strong>=> *</u></span>
+> <span style=""><u>*<strong>EXAMPLE</strong>*</u></span>
 > 
 > <span style=""><u>**[TRISUL ID here]**</u></span>
 > 
-> **
+> 
 > <p><span style=""><strong>MCP Service Configurati=
 > on(</strong><strong>com.wsgc.ecommerce.edam.core.services.impl.McpAuthServiceImpl):</strong></span></p>
 > <ul>
