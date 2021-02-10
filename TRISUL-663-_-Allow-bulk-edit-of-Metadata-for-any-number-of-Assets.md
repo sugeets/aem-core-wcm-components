@@ -1,11 +1,11 @@
 # TRISUL-663 : Allow bulk edit of Metadata for any number of Assets&#13;&#10;
 <div class="3D&quot;Section1&quot;">
    &#13;&#10;        
-   <p>**EDAM Utility Configuration&nbsp;(com.wsgc.ecommerce.edam=&#13;&#10;.core.service.config.OsgiCommonConfig****):**</p>
+   <p>EDAM Utility Configuration&nbsp;(com.wsgc.ecommerce.edam.core.service.config.OsgiCommonConfig):</p>
    &#13;&#10;
    <ul>
       &#13;&#10;
-      <li><span style="">This custom configuration cont=&#13;&#10;ains&nbsp;[hostname]:[portnumber][/mnt/overlay/dam/gui/content/assets/metadataeditor.ex=&#13;&#10;ternal.html](3D"http://localhost:4502/mnt/overl=)&nbsp; pagination offset value.</span></li>
+      <li><span style="">This custom configuration contains&nbsp;[hostname]:[portnumber][/mnt/overlay/dam/gui/content/assets/metadataeditor.external.html pagination offset value.</span></li>
       &#13;&#10;
       <li>Navigate to AEM web console (i.e. [hostname]:[portnumber]/system/console/configMgr)</li>
       &#13;&#10;
@@ -67,7 +67,7 @@
                   <p><span style="">Config Value(UAT)</span></p>
                </th>
                &#13;&#10;
-               <th class="">``
+               <th class="">
                   <p><span style="">Config Value(PROD)</span></p>
                </th>
                &#13;&#10;
@@ -82,11 +82,11 @@
                <td class="3D&quot;confluenceTd&quot;">Offset Value</td>
                &#13;&#10;
                <td class="3D&quot;confluenceTd&quot;">
-                  <p><span style="">NA &amp;=&#13;&#10;lt;no value provided&gt;</span></p>
+                  <p><span style="">NA &lt;no value provided&gt;</span></p>
                </td>
                &#13;&#10;
                <td class="3D&quot;confluenceTd&quot;">
-                  <p><span style="">NA &amp;=&#13;&#10;lt;no value provided&gt;</span></p>
+                  <p><span style="">NA &lt;no value provided&gt;</span></p>
                </td>
                &#13;&#10;
                <td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;no value provided&gt;</span></td>
@@ -94,11 +94,11 @@
                <td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;no value provided&gt;</span></td>
                &#13;&#10;
                <td class="3D&quot;confluenceTd&quot;">
-                  <p><span style="">NA &amp;=&#13;&#10;lt;no value provided&gt;</span></p>
+                  <p><span style="">NA &lt;no value provided&gt;</span></p>
                </td>
                &#13;&#10;
                <td class="3D&quot;confluenceTd&quot;">
-                  <p><span style="">NA &amp;=&#13;&#10;lt;no value provided&gt;</span></p>
+                  <p><span style="">NA &lt;no value provided&gt;</span></p>
                </td>
                &#13;&#10;
             </tr>
@@ -107,23 +107,23 @@
                &#13;&#10;
                <td class="3D&quot;confluenceTd&quot;">Assets list partition value</td>
                &#13;&#10;
-               <td class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;=&#13;&#10;no value provided&gt;</span></td>
+               <td class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;no value provided&gt;</span></td>
                &#13;&#10;
-               <td class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;=&#13;&#10;no value provided&gt;</span></td>
-               &#13;&#10;
-               <td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;no value provided&gt;</span></td>
+               <td class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;no value provided&gt;</span></td>
                &#13;&#10;
                <td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;no value provided&gt;</span></td>
                &#13;&#10;
-               <td class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;=&#13;&#10;no value provided&gt;</span></td>
+               <td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;no value provided&gt;</span></td>
                &#13;&#10;
-               <td class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;=&#13;&#10;no value provided&gt;</span></td>
+               <td class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;no value provided&gt;</span></td>
+               &#13;&#10;
+               <td class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;no value provided&gt;</span></td>
                &#13;&#10;
             </tr>
             &#13;&#10;
             
           
-   </div>
+   </table></div>
    &#13;&#10;    
 </div>
 &#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;

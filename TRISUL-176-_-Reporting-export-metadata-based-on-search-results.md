@@ -16,7 +16,7 @@
       <li>Provide "<span style="">File Name</span>" and "Sheet Name" and&nbsp;<span style="">multiple properties click on the + icon and add.</span></li>
       &#13;&#10;
       <li>
-         <p>Following are config param descriptions -<br>"Metadata properties to export"&nbsp; contains path and property names.<br><span style="">**Example**:&nbsp;<span style="">Brand Path property path from asset. Provide multiple properties =&#13;&#10;with comma.</span></span><span style="">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
+         <p>Following are config param descriptions -<br>"Metadata properties to export"&nbsp; contains path and property names.<br><span style="">Example:&nbsp;<span style="">Brand Path = property path from asset. Provide multiple properties =&#13;&#10;with comma.</span></span><span style="">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
       </li>
       &#13;&#10;
       <li><span style="">&nbsp;/content/dam/west-elm=<span style="">jcr:content/metadata/dc:title,</span><span style=""><span>&nbsp;</span>jcr:content/metadata/dam:size</span></span></li>

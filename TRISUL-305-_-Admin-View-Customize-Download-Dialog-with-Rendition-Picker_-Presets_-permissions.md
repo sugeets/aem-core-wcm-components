@@ -25,20 +25,20 @@
 </colgroup>
 <thead>
 <tr>
-<th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >&nbsp;Config Param</span></p></th>
-<th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Value(Dev)</span></p></th>
-<th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Value(QA)</span></p></th>
-<th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Value(UAT)</span></p></th>
-<th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Value(PROD)</span></p></th>
+<th colspan="3D&quot;1&quot;" style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Param</span></p></th>
+<th colspan="3D&quot;1&quot;" style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Value(Dev)</span></p></th>
+<th colspan="3D&quot;1&quot;" style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Value(QA)</span></p></th>
+<th colspan="3D&quot;1&quot;" style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Value(UAT)</span></p></th>
+<th colspan="3D&quot;1&quot;" style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Value(PROD)</span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="" class="3D&quot;confluenceTd&quot;">Profiles Storage Path:</td>
-<td style="" class="3D&quot;confluenceTd&quot;"><p>"/etc/edam/rendition/profiles"</p></td>
-<td style="" class="3D&quot;confluenceTd&quot;"><p>"/etc/edam/rendition/profiles"</p></td>
-<td style="" class="3D&quot;confluenceTd&quot;"><p>"/etc/edam/rendition/profiles"</p></td>
-<td style="" class="3D&quot;confluenceTd&quot;">"/etc/edam/rendition/profiles"</td>
+<td colspan="3D&quot;1&quot;" style="" class="3D&quot;confluenceTd&quot;">Profiles Storage Path:</td>
+<td colspan="3D&quot;1&quot;" style="" class="3D&quot;confluenceTd&quot;"><p>"/etc/edam/rendition/profiles"</p></td>
+<td colspan="3D&quot;1&quot;" style="" class="3D&quot;confluenceTd&quot;"><p>"/etc/edam/rendition/profiles"</p></td>
+<td colspan="3D&quot;1&quot;" style="" class="3D&quot;confluenceTd&quot;"><p>"/etc/edam/rendition/profiles"</p></td>
+<td colspan="3D&quot;1&quot;" style="" class="3D&quot;confluenceTd&quot;">"/etc/edam/rendition/profiles"</td>
 </tr>
 <tr>
 <td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;">Allowed Groups For Approved Assets:</td>
