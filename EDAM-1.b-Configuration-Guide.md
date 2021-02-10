@@ -17,7 +17,7 @@ ized for EDAM 1.b project. Below is an example for reference ONLY.
 > **
 > <p><strong><span style="">Config Name : High Resolution listener config</span></strong></p>
 > <div class="3D&quot;table-wrap&quot;">
-> <table class="3D&quot;wrapped" confluencetable"="" style="">
+> <table class="3D&quot;wrapped"  style="">
 > <colgroup>
 > <col>
 > </colgroup>
@@ -37,15 +37,15 @@ ized for EDAM 1.b project. Below is an example for reference ONLY.
 > <p>Following are config param name and corresponding values for MG and RJ.&lt;=
 > /p&gt;
 > </p><div class="3D&quot;table-wrap&quot;">
-> <table class="3D&quot;wrapped" confluencetable"="">
+> <table class="3D&quot;wrapped" >
 > <colgroup>
 > <col>
 > <col>
 > </colgroup>
 > <thead>
 > <tr>
-> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" lor:="">Config Param</span></p></th>
-> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" lor:="">Config Value</span></p></th>
+> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Param</span></p></th>
+> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Value</span></p></th>
 > </tr>
 > </thead>
 > <tbody>
@@ -58,13 +58,13 @@ ized for EDAM 1.b project. Below is an example for reference ONLY.
 > </table>
 > </div>
 > <p class="3D&quot;auto-cursor-target&quot;"><strong>Story :</strong></p>
-> <p class="3D&quot;auto-cursor-target&quot;"><strong> <span class="3D&quot;jira-issue" resolved=" data-jira-key=3D" trisul-885"=""> TRISUL-885 - MG Rollout - Setup Groups and Permissions Closed</span> </span> &nbsp;</strong></p><strong>
+> <p class="3D&quot;auto-cursor-target&quot;"><strong> <span class="3D&quot;jira-issue" > TRISUL-885 - MG Rollout - Setup Groups and Permissions Closed</span>  &nbsp;</strong></p><strong>
 > <p class="3D&quot;auto-cursor-target&quot;"><strong><span style="">MG Rollout - Setup Groups and Permissions</span></strong></p>
-> <p class="3D&quot;auto-cursor-target&quot;"><span style=""><span= style="">ThirdPartyContributorConfig for MG DEV environment :</span=></span></p>
+> <p class="3D&quot;auto-cursor-target&quot;"><span style=""><span style="">ThirdPartyContributorConfig for MG DEV environment :</span></span></p>
 > <p>  
 > </p>
 > <div class="3D&quot;table-wrap&quot;">
-> <table class="3D&quot;wrapped" confluencetable"="" style="">
+> <table class="3D&quot;wrapped"  style="">
 > <colgroup>
 > <col>
 > </colgroup>
@@ -82,28 +82,28 @@ ized for EDAM 1.b project. Below is an example for reference ONLY.
 > Search for "ThirdPartyContributorConfigServiceFactory~mgtpUsers" and click on it.</p>
 > <p>Following are config param names and corresponding values.</p>
 > <div class="3D&quot;table-wrap&quot;">
-> <table class="3D&quot;wrapped" confluencetable"="">
+> <table class="3D&quot;wrapped" >
 > <colgroup>
 > <col>
 > <col>
 > </colgroup>
 > <thead>
 > <tr>
-> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" lor:="">Config Param</span></p></th>
-> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" lor:="">Config Value(Dev)</span></p></th>
+> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Param</span></p></th>
+> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Value(Dev)</span></p></th>
 > </tr>
 > </thead>
 > <tbody>
 > <tr>
-> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">brand.path</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" >brand.path</span></td>
 > <td style="" class="3D&quot;confluenceTd&quot;">/content/dam/mark-and-graham</td>
 > </tr>
 > <tr>
-> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">third.party.folder</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" >third.party.folder</span></td>
 > <td style="" class="3D&quot;confluenceTd&quot;">3rd-party-group</td>
 > </tr>
 > <tr>
-> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">third.party.groups</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" >third.party.groups</span></td>
 > <td style="" class="3D&quot;confluenceTd&quot;">APR_EDAM_DEV_MG_3rdPartyContributor</td>
 > </tr>
 > <tr>
@@ -143,26 +143,26 @@ ized for EDAM 1.b project. Below is an example for reference ONLY.
 > </colgroup>
 > <thead>
 > <tr>
-> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" lor:="">Config Param</span></p></th>
-> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" lor:="">Config Value(Dev)</span></p></th>
+> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Param</span></p></th>
+> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Value(Dev)</span></p></th>
 > </tr>
 > </thead>
 > <tbody>
 > <tr>
-> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">editRestrictGroups</span></td>
+> <td style="" class=""><span style="">editRestrictGroups</span></td>
 > <td style="" class="3D&quot;confluenceTd&quot;"><p>APR_EDAM_DEV_MG_Vendor</p></td>
 > </tr>
 > </tbody>
 > </table>
 > </div>
 > <p><strong>Story :</strong></p>
-> <p> <span class="3D&quot;jira-issue" resolved"="" data-jira-key="3D&quot;TRISUL-886&quot;"> [<im= g="" class="3D&quot;icon&quot;" src="3D&quot;https://jira.wsgc.com/secure/viewavatar?size=3Dxsma=">TRISUL-886</im=>]() - <span class="3D&quot;summary&quot;">RJ Rollout - Setup Groups and Permissions</span> <span cl="ass=3D&quot;aui-lozenge" aui-lozenge-subtle="" aui-lozenge-success="" jira-macro-single-issue-export-pdf"="">Closed</span> </span> </p>
+> <p> <span class="3D&quot;jira-issue" > [<img class="" src="https://jira.wsgc.com/secure/viewavatar?size=3Dxsma=">TRISUL-886</img>]() - <span class="3D&quot;summary&quot;">RJ Rollout - Setup Groups and Permissions</span> <span>Closed</span> </span> </p>
 > <p><strong><span style="">RJ Rollout - Setup Groups and Permissions</span></strong></p>
-> <p class="3D&quot;auto-cursor-target&quot;"><span style=""><span= style="">ThirdPartyContributorConfig for RJ DEV environment :</span=></span></p>
+> <p class="3D&quot;auto-cursor-target&quot;"><span style=""><span style="">ThirdPartyContributorConfig for RJ DEV environment :</span></span></p>
 > <p>  
 > </p>
 > <div class="3D&quot;table-wrap&quot;">
-> <table class="3D&quot;wrapped" confluencetable"="" style="">
+> <table class="3D&quot;wrapped"  style="">
 > <colgroup>
 > <col>
 > </colgroup>
@@ -180,28 +180,28 @@ ized for EDAM 1.b project. Below is an example for reference ONLY.
 > Search for "ThirdPartyContributorConfigServiceFactory~rjtpUsers" and click on it.</p>
 > <p>Following are config param names and corresponding values.</p>
 > <div class="3D&quot;table-wrap&quot;">
-> <table class="3D&quot;wrapped" confluencetable"="">
+> <table class="3D&quot;wrapped" >
 > <colgroup>
 > <col>
 > <col>
 > </colgroup>
 > <thead>
 > <tr>
-> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" lor:="">Config Param</span></p></th>
-> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" lor:="">Config Value(Dev)</span></p></th>
+> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Param</span></p></th>
+> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Value(Dev)</span></p></th>
 > </tr>
 > </thead>
 > <tbody>
 > <tr>
-> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">brand.path</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" >brand.path</span></td>
 > <td style="" class="3D&quot;confluenceTd&quot;">/content/dam/rejuvenation</td>
 > </tr>
 > <tr>
-> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">third.party.folder</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" >third.party.folder</span></td>
 > <td style="" class="3D&quot;confluenceTd&quot;">3rd-party-group</td>
 > </tr>
 > <tr>
-> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">third.party.groups</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" >third.party.groups</span></td>
 > <td style="" class="3D&quot;confluenceTd&quot;">APR_EDAM_DEV_RJ_3rdPartyContributor</td>
 > </tr>
 > <tr>
@@ -212,7 +212,7 @@ ized for EDAM 1.b project. Below is an example for reference ONLY.
 > </tbody>
 > </table>
 > </div>
-> </strong>**
+> </strong>
 
 **<strong>
     </strong>**</div> **<strong>
