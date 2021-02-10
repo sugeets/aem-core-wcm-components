@@ -6,15 +6,14 @@
         
 <br>
 
-The following document contains the list of configurations that are util=
-ized for EDAM 1.b project. Below is an example for reference ONLY.
+The following document contains the list of configurations that are utilized for EDAM 1.b project. Below is an example for reference ONLY.
 > 
 > 
 > **Story :**
 > 
 > **<p><strong><span style="">TRISUL-859 MG &amp; RJ Rollout - High Resolution Threshold Closed</span></strong></p>**
 > 
-> **
+> 
 > <p><strong><span style="">Config Name : High Resolution listener config</span></strong></p>
 > <div class="3D&quot;table-wrap&quot;">
 > <table class="3D&quot;wrapped"  style="">
@@ -23,8 +22,7 @@ ized for EDAM 1.b project. Below is an example for reference ONLY.
 > </colgroup>
 > <tbody>
 > <tr>
-> <td style="" class="3D&quot;confluenceTd&quot;">com.wsgc.ecommerce.e=
-> dam.core.listeners.HighResolutionImageListener</td>
+> <td style="" class="3D&quot;confluenceTd&quot;">com.wsgc.ecommerce.edam.core.listeners.HighResolutionImageListener</td>
 > </tr>
 > </tbody>
 > </table>
@@ -34,8 +32,7 @@ ized for EDAM 1.b project. Below is an example for reference ONLY.
 > <p>Following custom configuration's are required for setting high resolution threshold values for an asset.</p>
 > <p>Navigate to AEM web console (i.e. [hostname]:[portnumber]/system/console/configMgr)  
 > Search for "<span style="">High Resolution listener config</span>" and click on it.</p>
-> <p>Following are config param name and corresponding values for MG and RJ.&lt;=
-> /p&gt;
+> <p>Following are config param name and corresponding values for MG and RJ.
 > </p><div class="3D&quot;table-wrap&quot;">
 > <table class="3D&quot;wrapped" >
 > <colgroup>
@@ -51,8 +48,7 @@ ized for EDAM 1.b project. Below is an example for reference ONLY.
 > <tbody>
 > <tr>
 > <td style="" class="3D&quot;confluenceTd&quot;">high.resolution.threshold</td>
-> <td style="" class="3D&quot;confluenceTd&quot;"><p>/content/dam/rejuvenation=3D2000</p><p>/content/dam/mark-and-graham=3D2000</p><p>/content/da=
-> m/west-elm=3D2000</p></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><p>/content/dam/rejuvenation=2000</p><p>/content/dam/mark-and-graham=2000</p><p>/content/dam/west-elm=2000</p></td>
 > </tr>
 > </tbody>
 > </table>
@@ -156,7 +152,7 @@ ized for EDAM 1.b project. Below is an example for reference ONLY.
 > </table>
 > </div>
 > <p><strong>Story :</strong></p>
-> <p> <span class="3D&quot;jira-issue" > [<img class="" src="https://jira.wsgc.com/secure/viewavatar?size=3Dxsma=">TRISUL-886</img>]() - <span class="3D&quot;summary&quot;">RJ Rollout - Setup Groups and Permissions</span> <span>Closed</span> </span> </p>
+> <p> <span class="3D&quot;jira-issue" > [TRISUL-886] - <span class="3D&quot;summary&quot;">RJ Rollout - Setup Groups and Permissions</span> <span>Closed</span> </span> </p>
 > <p><strong><span style="">RJ Rollout - Setup Groups and Permissions</span></strong></p>
 > <p class="3D&quot;auto-cursor-target&quot;"><span style=""><span style="">ThirdPartyContributorConfig for RJ DEV environment :</span></span></p>
 > <p>  
@@ -205,14 +201,14 @@ ized for EDAM 1.b project. Below is an example for reference ONLY.
 > <td style="" class="3D&quot;confluenceTd&quot;">APR_EDAM_DEV_RJ_3rdPartyContributor</td>
 > </tr>
 > <tr>
-> <td style="" class="3D&quot;confluenceTd&quot;">other.allowed.groups=
-> </td>
+> <td style="" class="3D&quot;confluenceTd&quot;">other.allowed.groups> </td>
 > <td style="" class="3D&quot;confluenceTd&quot;">APR_EDAM_DEV_RJ_Production</td>
 > </tr>
 > </tbody>
 > </table>
 > </div>
-> </strong>
+> </strong></div>
+
 
 **<strong>
     </strong>**</div> **<strong>
