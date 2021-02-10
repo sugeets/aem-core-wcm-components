@@ -241,8 +241,7 @@ Following are config param names and corresponding values.
 </colgroup>
 <tbody>
 <tr>
-<td style="" class="3D&quot;confluenceTd&quot;">com.wsgc.ecommerce.edam.core.services.impl.ThirdPartyContributorConfigServiceFactory~pbTeenTpUs=
-ers</td>
+<td style="" class="3D&quot;confluenceTd&quot;">com.wsgc.ecommerce.edam.core.services.impl.ThirdPartyContributorConfigServiceFactory~pbTeenTpUsers</td>
 </tr>
 </tbody>
 </table>
@@ -306,10 +305,6 @@ Search for "<span style="">Dam metadata update listener config</span>" and click
 Following are config param name and corresponding values for WE,PB Main, Kids, Teen brands.
 <div class="3D&quot;table-wrap&quot;">
 <table class="3D&quot;wrapped" >
-<colgroup>
-<col>
-</col>
-</colgroup>
 <tbody>
 <tr>
 <th class="3D&quot;confluenceTh&quot;"><span style="">Config Param</span></th>
@@ -317,7 +312,7 @@ Following are config param name and corresponding values for WE,PB Main, Kids, T
 </tr>
 <tr>
 <td class="">approved.asset.viewers</td>
-<td class=""><p>/content/dam/west-elm=APR_EDAM_DEV_WE_MERCHANTS,APR_EDAM_DEV_WE_GENERAL,APR_EDAM_DEV_WE_VENDORS<br>/content/dam/pottery-barn/main=<span style="">APR_EDAM_DEV_PB_GeneralUsers</span>,APR_EDAM_DEV_PB_FRANCHISE<br>/content/dam/pottery-barn/kids=<span style="">APR_EDAM_DEV_PK_GeneralUsers,<span style="">APR_EDAM_DEV_PK_Franchise</span><br>/content/dam/pottery-barn/teen=<span style="">APR_EDAM_DEV_PT_GeneralUsers</span>,<span style="">APR_EDAM_DEV_PT_Franchise</span></p></td>
+<td class=""><p>/content/dam/west-elm=APR_EDAM_DEV_WE_MERCHANTS,APR_EDAM_DEV_WE_GENERAL,APR_EDAM_DEV_WE_VENDORS<br>/content/dam/pottery-barn/main=<span style="">APR_EDAM_DEV_PB_GeneralUsers</span>,APR_EDAM_DEV_PB_FRANCHISE<br>/content/dam/pottery-barn/kids=<span style="">APR_EDAM_DEV_PK_GeneralUsers,<span style="">APR_EDAM_DEV_PK_Franchise</span><br>/content/dam/pottery-barn/teen=<span style="">APR_EDAM_DEV_PT_GeneralUsers</span>,<span style="">APR_EDAM_DEV_PT_Franchise</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -430,7 +425,7 @@ Following are config param names and corresponding values.
 </div>
 <br>
 
-<span style=""><span style="">ThirdPartyContributorConfig for PB Kids QA,&nbsp;PB&nbsp;Kids UAT and&amp;nbsp;PB&nbsp;Kids PROD environments :</span></span>
+<span style=""><span style="">ThirdPartyContributorConfig for PB Kids QA,&nbsp;PB&nbsp;Kids UAT and&nbsp;PB&nbsp;Kids PROD environments :</span></span>
 <div class="3D&quot;table-wrap&quot;">
 <table class="3D&quot;wrapped"  style="">
 <colgroup>
@@ -438,8 +433,7 @@ Following are config param names and corresponding values.
 </colgroup>
 <tbody>
 <tr>
-<td style="" class="3D&quot;confluenceTd&quot;">com.wsgc.ecommerce.edam.core.services.impl.ThirdPartyContributorConfigServiceFactory~pbKidsTpUs=
-ers</td>
+<td style="" class="3D&quot;confluenceTd&quot;">com.wsgc.ecommerce.edam.core.services.impl.ThirdPartyContributorConfigServiceFactory~pbKidsTpUsers</td>
 </tr>
 </tbody>
 </table>
@@ -609,8 +603,7 @@ Following are config param name and corresponding values for WE,PB Main, Kids, T
 </tr>
 <tr>
 <td class="3D&quot;confluenceTd&quot;">approved.asset.viewers</td>
-<td class="3D&quot;confluenceTd&quot;"><p>/content/dam/west-elm=APR_EDAM_UAT_WE_MERCH=
-ANTS,APR_EDAM_UAT_WE_GENERAL,APR_EDAM_UAT_WE_VENDORS  
+<td class="3D&quot;confluenceTd&quot;"><p>/content/dam/west-elm=APR_EDAM_UAT_WE_MERCHANTS,APR_EDAM_UAT_WE_GENERAL,APR_EDAM_UAT_WE_VENDORS  
 /content/dam/pottery-barn/main=<span style="">APR_EDAM_UAT_PB_GeneralUsers</span>,APR_EDAM_UAT_PB_FRANCHISE  
 /content/dam/pottery-barn/kids=<span style="">APR_EDAM_UAT_PK_GeneralUsers</span>,<span style="">APR_EDAM_UAT_PK_Franchise</span>  
 /content/dam/pottery-barn/teen=<span style="">APR_EDAM_UAT_PT_GeneralUsers</span>,<span style="">APR_EDAM_UAT_PT_Franchise</span></p></td>
@@ -783,5 +776,4 @@ wsi:isHighResolution=Is High Resolution&lt;br&gt;wsi:product-name=Product Name#P
 </tbody>
 </table>
 </div>
-   </div> ** **<strong>
-</strong>**
+   </div>
