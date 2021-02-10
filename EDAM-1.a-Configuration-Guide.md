@@ -4,8 +4,7 @@
     
 <div class="3D&quot;Section1&quot;">
         
-<span style="">Configs for restricting me=
-tadata edit of an asset in QA, UAT, PROD</span>The following document contains the list of configurations that are utilized for EDAM 1.a project.
+<span style="">Configs for restricting metadata edit of an asset in QA, UAT, PROD</span>The following document contains the list of configurations that are utilized for EDAM 1.a project.
 
 **Story :**
 
@@ -63,7 +62,7 @@ Following are config param names and corresponding values.
 </div>
 <br>
 
-[TRISUL](3D"https://jira.wsgc.com/browse/TRISUL-348")[-573](3D"https://jira.wsgc.com/browse/TRIS=)&nbsp;:&nbsp;<span= style="">WS Rollout - Create and Configure Groups/Privileges for all envs</span>
+[TRISUL-573](3D"https://jira.wsgc.com/browse/TRISUL-573) WS Rollout - Create and Configure Groups/Privileges for all envs</span>
 
 <span style=""><span style="">ThirdPartyContributorConfig for WS QA, WS UAT and WS PROD environments :</span></span>
 <div class="3D&quot;table-wrap&quot;">
@@ -366,11 +365,11 @@ Following are config param name and corresponding values for PB.
 
 **Story :**
 
-[TRISUL]("https://jira.wsgc.com/browse/TRISUL-348")[-574]("https://jira.wsgc.com/browse/TRIS=)&nbsp;:&nbsp;<span= style="">PB Rollout - Create and Configure Groups/Privileges for all the environments</span>
+[TRISUL-574]("3Dhttps://jira.wsgc.com/browse/TRISUL-574)&nbsp;:&nbsp;<span style="">PB Rollout - Create and Configure Groups/Privileges for all the environments</span>
 
 <span style=""><span style="">ThirdPartyContributorConfig for PB Main QA,&nbsp;PB Main UAT and&nbsp;PB Main PROD environments :</span></span>
 <div class="3D&quot;table-wrap&quot;">
-<table class="3D&quot;wrapped"  style="">
+<table class="3D&quot;wrapped" style="">
 <colgroup>
 <col>
 </colgroup>
@@ -636,8 +635,7 @@ ANTS,APR_EDAM_UAT_WE_GENERAL,APR_EDAM_UAT_WE_VENDORS
 <tr>
 <td class="3D&quot;confluenceTd&quot;">approved.asset.viewers</td>
 <td class="3D&quot;confluenceTd&quot;"><p>/content/dam/west-elm=APR_EDAM_WE_MERCHANTS_USERS,APR_EDAM_WE_GENERAL_USERS,APR_EDAM_WE_VENDORS_USERS  
-/content/dam/=
-pottery-barn/main=<span style="">APR_EDAM_PB_GeneralUsers</span>,APR_EDAM_PB_FRANCHISE  
+/content/dam/pottery-barn/main=<span style="">APR_EDAM_PB_GeneralUsers</span>,APR_EDAM_PB_FRANCHISE  
 /content/dam/pottery-barn/kids=<span style="">APR_EDAM_PK_GeneralUsers,<span style="">APR_EDAM_PK_Franchise</span>  
 /content/dam/pottery-barn/teen=<span style="">APR_EDAM_PT_GeneralUsers,<span style="">APR_EDAM_PT_Franchise</span></span></span></p>
 </td></tr>
@@ -727,8 +725,7 @@ Search for "<span style="">High Resolution listener config</span>" and click on 
 </tr>
 <tr>
 <td class="3D&quot;confluenceTd&quot;">high.resolution.threshold</td>
-<td class="3D&quot;confluenceTd&quot;"><p>/content/dam/pottery-barn=4800</p><p>/conte=
-nt/dam/williams-sonoma=2000</p><p>/content/dam/west-elm=2000</p></td>
+<td class="3D&quot;confluenceTd&quot;"><p>/content/dam/pottery-barn=4800</p><p>/content/dam/williams-sonoma=2000</p><p>/content/dam/west-elm=2000</p></td>
 </tr>
 </tbody>
 </table>
@@ -769,22 +766,18 @@ Search for "<span style="">SummaryTab Configurations</span>" and click on it.</p
 <tr>
 <td class="3D&quot;confluenceTd&quot;"><span style="">SummaryTab
 </span></td>
-<td class="3D&quot;confluenceTd&quot;"><p>wsi:brand=Brand#Creative  
-wsi:asset-type=
-=Asset Type#Creative  
+<td class="3D&quot;confluenceTd&quot;"><p>
+wsi:brand=Brand#Creative  
+wsi:asset-type=Asset Type#Creative  
 wsi:year=Year#Creative  
-wsi:season=Season#C=
-reative  
+wsi:season=Season#Creative  
 wsi:spread=Spread#Creative  
 wsi:crop=Crop#Creative  
-wsi:=
-skus=SKUs#Product  
+wsi:skus=SKUs#Product  
 wsi:group-ids=Group IDs#Product  
-wsi:collection=
-=Collection#Product  
+wsi:collection=Collection#Product  
 wsi:product-type=Product Type#Product  
-wsi:sta=
-tus=Approval Status#Process  
+wsi:status=Approval Status#Process  
 wsi:isHighResolution=Is High Resolution&lt;br&gt;wsi:product-name=Product Name#Product</p></td>
 </tr>
 </tbody>
