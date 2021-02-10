@@ -24,7 +24,7 @@ The following document contains the list of configurations that are utilized for
 > </li>
 > </ul>
 > <div class="3D&quot;table-wrap&quot;">
-> <table class="3D&quot;relative-table" wrapped="" confluencetable"="" style="" 111="9.0px;&quot;">
+> <table class="3D&quot;relative-table" wrapped="" confluencetable="" style="" 111="9.0px;&quot;">
 > <colgroup>
 > <col style="">
 > <col style="">
@@ -36,45 +36,43 @@ The following document contains the list of configurations that are utilized for
 > </colgroup>
 > <thead>
 > <tr>
-> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" lor:="">&nbsp;Config Param</span></p></th>
-> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" lor:="">Config Value(Dev)</span></p></th>
-> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" lor:="">Config Value(QA)</span></p></th>
+> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >&nbsp;Config Param</span></p></th>
+> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Value(Dev)</span></p></th>
+> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Value(QA)</span></p></th>
 > <th colspan="3D&quot;1&quot;" class="3D&quot;confluenceTh&quot;"><span style="">Config Value(RGS)</span></th>
 > <th colspan="3D&quot;1&quot;" class="3D&quot;confluenceTh&quot;"><span style="">Config Value(PERF)</span></th>
-> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" lor:="">Config Value(UAT)</span></p></th>
-> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" lor:="">Config Value(PROD)</span></p></th>
+> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Value(UAT)</span></p></th>
+> <th style="" class="3D&quot;confluenceTh&quot;"><p><span style="" >Config Value(PROD)</span></p></th>
 > </tr>
 > </thead>
 > <tbody>
 > <tr>
 > <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">mcp.accesstoken.scopes</span></td>
-> <td style="" class="3D&quot;confluenceTd&quot;"><p><span style="" lor:="">ROLE_APR_MCP_NON_PROD_USERS</span></p></td>
-> <td style="" class="3D&quot;confluenceTd&quot;"><p><span style="" lor:="">ROLE_APR_MCP_NON_PROD_USERS</span></p></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><p><span style="" >ROLE_APR_MCP_NON_PROD_USERS</span></p></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><p><span style="" >ROLE_APR_MCP_NON_PROD_USERS</span></p></td>
 > <td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><span style="">ROLE_APR_MCP_NON_PROD_USERS</span></td>
 > <td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><span style="">ROLE_APR_MCP_NON_PROD_USERS</span></td>
-> <td style="" class="3D&quot;confluenceTd&quot;"><p><span style="" lor:="">ROLE_APR_MCP_NON_PROD_USERS</span></p></td>
-> <td style="" class="3D&quot;confluenceTd&quot;"><p><span style="" lor:="">ROLE_APR_MCP_PROD_USERS</span></p></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><p><span style="" >ROLE_APR_MCP_NON_PROD_USERS</span></p></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><p><span style="" >ROLE_APR_MCP_PROD_USERS</span></p></td>
 > </tr>
 > <tr>
-> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">oauth.accesstoken</span></td>
-> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">NA &lt;no value provided&gt;</span></td>
-> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">NA &lt;no value provided&gt;</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" >oauth.accesstoken</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" >NA &lt;no value provided&gt;</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" >NA &lt;no value provided&gt;</span></td>
 > <td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;no value provided&gt;</span></td>
 > <td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;no value provided&gt;</span></td>
-> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">NA &lt;no value provided&gt;</span></td>
-> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">NA &lt;no value provided&gt;</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" >NA &lt;no value provided&gt;</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" >NA &lt;no value provided&gt;</span></td>
 > </tr>
 > <tr>
-> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">oauth.accesstoken.expiry</span></td>
-> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">NA &lt;no value provided&gt;</span></td>
-> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">NA &lt;no value provided&gt;</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" >oauth.accesstoken.expiry</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" >NA &lt;no value provided&gt;</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" >NA &lt;no value provided&gt;</span></td>
 > <td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;no value provided&gt;</span></td>
 > <td colspan="3D&quot;1&quot;" class="3D&quot;confluenceTd&quot;"><span style="">NA &lt;no value provided&gt;</span></td>
-> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">NA &lt;no value provided&gt;</span></td>
-> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" :="">NA &lt;no value provided&gt;</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" >NA &lt;no value provided&gt;</span></td>
+> <td style="" class="3D&quot;confluenceTd&quot;"><span style="" >NA &lt;no value provided&gt;</span></td>
 > </tr>
 > </tbody>
 > </table>
-> </div>> **
-
-****</div> 
+> </div></div> 
