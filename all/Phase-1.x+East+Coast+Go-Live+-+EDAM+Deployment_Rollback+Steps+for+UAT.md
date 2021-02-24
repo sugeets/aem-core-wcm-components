@@ -22,13 +22,13 @@ Phase-1.x East Coast Go-Live - EDAM Deployment/Rollback Steps for UAT
 
 · 
 
-*   [edam.ui.apps](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [ui.oak.index](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [ui.apps.common.config](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [ui.rep.namespaces](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [ui.system.user](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
+*   [edam.ui.apps](https://confluence.wsgc.com/pages/viewpage.action?pageId=284238171#Phase1.xEastCoastGoLiveEDAMDeployment/RollbackStepsforUAT-edam.ui.apps)
+*   [ui.oak.index](https://confluence.wsgc.com/pages/viewpage.action?pageId=284238171#Phase1.xEastCoastGoLiveEDAMDeployment/RollbackStepsforUAT-ui.oak.index)
+*   [ui.apps.common.config](https://confluence.wsgc.com/pages/viewpage.action?pageId=284238171#Phase1.xEastCoastGoLiveEDAMDeployment/RollbackStepsforUAT-ui.apps.common.config)
+*   [ui.rep.namespaces](https://confluence.wsgc.com/pages/viewpage.action?pageId=284238171#Phase1.xEastCoastGoLiveEDAMDeployment/RollbackStepsforUAT-ui.rep.namespaces)
+*   [ui.system.user](https://confluence.wsgc.com/pages/viewpage.action?pageId=284238171#Phase1.xEastCoastGoLiveEDAMDeployment/RollbackStepsforUAT-ui.system.user)
 
-**1\. Take Snapshot of East Coast EDAM Server VM:**
+# 1 Take Snapshot of East Coast EDAM Server VM
 ---------------------------------------------------
 
 Project team to raise a WSI SNOW ticket to take a snapshot of East coast server VM before deployment begins.
@@ -36,7 +36,7 @@ Project team to raise a WSI SNOW ticket to take a snapshot of East coast server 
  **For Server details please refer the following URL:****  
 **[EDAM - CNAME](https://confluence.wsgc.com/display/PS/EDAM+-+CNAME)****
 
-**2\. Remove  ui.apps.uat.config :** 
+# 2 Remove  ui.apps.uat.config
 -------------------------------------
 
 **Source**  
@@ -61,7 +61,7 @@ This step uninstalls ui.apps.uat.config for EDAM
 
 ![](aemeastuat/image001.png?raw=true)
 
-**3.Stop AEM Server:**
+# 3 Stop AEM Server 
 ----------------------
 
 **Source: [https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config/blob/master/src/main/resources/apps/aemscripts/stop](https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config/blob/master/src/main/resources/apps/aemscripts/start)**  
@@ -80,7 +80,7 @@ UAT : [https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/c896c5ea-8736-46cf
 
 ![](aemeastuat/image002.png?raw=true)
 
-**3\. Change run-mode from edam-we to edam-east and install ICC profile:**
+# 3 Change run-mode from edam-we to edam-east and install ICC profile
 --------------------------------------------------------------------------
 
 **\[It's Deploying rpm package\]**
@@ -108,7 +108,7 @@ Steps to follow : A rundeck job to be triggered for this step.
 
 **![](aemeastuat/image003.png?raw=true)**
 
-**4\. Start AEM Server:**
+# 4 Start AEM Server
 -------------------------
 
 **Source: [https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config/blob/master/src/main/resources/apps/aemscripts/start](https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config/blob/master/src/main/resources/apps/aemscripts/start)**  
@@ -124,7 +124,7 @@ This step starts the AEM server in primary mode
 
 ![](aemeastuat/image004.png?raw=true)
 
-**5\. EDAM config - common:**
+# 5 EDAM config common
 -----------------------------
 
 This step installs required common  config for EDAM  
@@ -147,7 +147,7 @@ This step installs required common  config for EDAM
 
 **![](aemeastuat/image005.png?raw=true)**
 
-**6\. EDAM config - Environment:**
+# 6 EDAM config Environment
 ----------------------------------
 
 This step installs required environment specific config for EDAM
@@ -172,7 +172,7 @@ This step installs required environment specific config for EDAM
 
 ![](aemeastuat/image006.png?raw=true)
 
-**7\. EDAM Config - oak index:**
+# 7 EDAM Config oak index
 --------------------------------
 
 **Source** : **[https://github.wsgc.com/eCommerce-DevOps/edam-common-config/tree/release/edam/oak-index](https://github.wsgc.com/eCommerce-DevOps/edam-common-config/tree/release/edam/oak-index)**  
@@ -196,7 +196,7 @@ This step installs required oak indexes for EDAM
 ![](aemeastuat/image007.png?raw=true)
 ------------------------------------------------------------------------------------------------------
 
-**8\. EDAM Config - ACLs:**
+# 8 EDAM Config ACLs
 ---------------------------
 
 **Source** **UAT**:  
@@ -225,7 +225,7 @@ This step installs required ACLs for EDAM
 
 **WE****![](aemeastuat/image010.png?raw=true)**
 
-**9\. EDAM App code :**
+# 9 EDAM App code
 -----------------------
 
 **Source** : **[https://github.wsgc.com/eCommerce-Bedrock/enterprise-dam](https://github.wsgc.com/eCommerce-Bedrock/enterprise-dam)**  
@@ -245,7 +245,7 @@ This step installs required ACLs for EDAM
 
 ![](aemeastuat/image011.png?raw=true)
 
-**10\. EDAM AEM Restart:**
+10 EDAM AEM Restart 
 --------------------------
 
 **This step restarts AEM** 
@@ -261,7 +261,7 @@ This step installs required ACLs for EDAM
 
 ![](aemeastuat/image012.png?raw=true)
 
-**11\. Reinstall AEM ACS Commons:**
+11 Reinstall AEM ACS Commons
 -----------------------------------
 
 This step reinstalls required AEM ACS Commons on the existing AEM version
@@ -272,7 +272,7 @@ This step reinstalls required AEM ACS Commons on the existing AEM version
 
 Note: Please refer the following JIRA for RCA : [RM-23510](https://jira.wsgc.com/browse/RM-23510) - Getting issue details... STATUS
 
-**12\. one time script execution to update permissions for existing content:**
+12 one time script execution to update permissions for existing content
 ------------------------------------------------------------------------------
 
 Rundeck Job URL: [https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/7ff7ed86-28e3-4e3a-b311-ae09993d010a](https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/7ff7ed86-28e3-4e3a-b311-ae09993d010a)
@@ -295,7 +295,7 @@ Step 6: Once the job run successfully login as either general user or merchant u
 
 **Note : Please refer following JIRA more details:** **[RM-23552](https://jira.wsgc.com/browse/RM-23552) -** **Getting issue details...** **STATUS**
 
-**13\. Post-Deployment Steps:**
+13 Post Deployment Steps
 -------------------------------
 
 <div>
@@ -330,7 +330,8 @@ Step 6: Once the job run successfully login as either general user or merchant u
 
 </div>
 
-**Validation Check list**: [EDAM 1.x - East - Validation Checklist](../../../../../../display/PdM/EDAM+1.x+-+East+-+Validation+Checklist)
+# Validation Check list 
+[EDAM 1.x - East - Validation Checklist](https://confluence.wsgc.com/display/PdM/EDAM+1.x+-+East+-+Validation+Checklist)
 -----------------------------------------------------------------------------------------------------------------------------------------
 
  **Jenkins and RunDeck Jobs**
@@ -343,7 +344,7 @@ Step 6: Once the job run successfully login as either general user or merchant u
 *   [RunDeck: Install EDAM Custom Config](https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/deploy-qa-edam-custom-config)
 *   [Jenkins: Install EDAM Custom Config](https://ecombuild.wsgc.com/jenkins/job/deploy-edam-custom-config/)
 
-**Rollback Steps :**
+# Rollback Steps 
 ====================
 
 **As part of the rollback we are providing two option1, if by any chance option 1 fails then please use option 2.**
