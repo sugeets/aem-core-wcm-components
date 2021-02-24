@@ -6,7 +6,7 @@ Phase-1.X AEM Set-up and EDAM Deployment Steps for West Coast UAT
 *   [1\. AEM Set-up:](#1aem-set-up)
 *   [2\. AEM Start-up:](#2-aem-start-up)
 *   [3\. EDAM config - common:](#3-edam-config-common)
-*   [4\. EDAM config - Environment:](#4-edam-config-Environment)
+*   [4\. EDAM config - Environment:](#4-edam-config-environment)
 *   [5\. EDAM Config - oak index:](#5-edam-config-oak-index)
 *   [6\. EDAM Config - system user:](#6-edam-config-system-user)
 *   [7\. EDAM Config - namespaces:](#7-edam-config-namespaces)
@@ -16,7 +16,7 @@ Phase-1.X AEM Set-up and EDAM Deployment Steps for West Coast UAT
 *   [11\. AEM Service Pack upgrade:](#11-aem-service-pack-upgrade)
 *   [12\. EDAM AEM Restart:](#12-edam-aem-restart)
 *   [13\. AEM ACS Commons upgrade:](#13-aem-acs-commons-upgrade)
-*   [14\. Post-Deployment Steps: (Execution Time - 30 mins)](#14-post-deployment-steps)
+*   [14\. Post-Deployment Steps: (Execution Time - 30 mins)](#14-post-deployment-steps--execution-time---30-mins)
 *   [Validation Checklist: EDAM 1.x - West- Validation Checklist](#validation-checklist )
 
 · [Rollback Step](#rollback-step)
