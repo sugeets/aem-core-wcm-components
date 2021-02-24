@@ -1,24 +1,24 @@
 Phase-1.x East Coast Go-Live - EDAM Deployment/Rollback Steps for UAT
 =====================================================================
 
-*   [1\. Take Snapshot of East Coast EDAM Server VM:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [2\. Remove  ui.apps.uat.config :](#Phase1.xEastCoastGoLiveEDAMDeployment/R) 
-*   [3.Stop AEM Server:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [3\. Change run-mode from edam-we to edam-east and install ICC profile:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [4\. Start AEM Server:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [5\. EDAM config - common:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [6\. EDAM config - Environment:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [7\. EDAM Config - oak index:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [8\. EDAM Config - ACLs:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [9\. EDAM App code :](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [10\. EDAM AEM Restart:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [11\. Reinstall AEM ACS Commons:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [12\. one time script execution to update permissions for existing content:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [13\. Post-Deployment Steps:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [Validation Check list: EDAM 1.x - East - Validation Checklist](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
+*   [1\. Take Snapshot of East Coast EDAM Server VM:](#1-take-snapshot-of-east-coast-edam-server-vm)
+*   [2\. Remove  ui.apps.uat.config :](#2-remove-uiappsuatconfig) 
+*   [3.Stop AEM Server:](#3-stop-aem-server)
+*   [3\. Change run-mode from edam-we to edam-east and install ICC profile:](#3-change-run-mode-from-edam-we-to-edam-east-and-install-icc-profile)
+*   [4\. Start AEM Server:](#4-start-aem-server)
+*   [5\. EDAM config - common:](#5-edam-config-common)
+*   [6\. EDAM config - Environment:](#6-edam-config-environment)
+*   [7\. EDAM Config - oak index:](#7-edam-config-oak-index)
+*   [8\. EDAM Config - ACLs:](#8-edam-config-acls)
+*   [9\. EDAM App code :](#9-edam-app-code)
+*   [10\. EDAM AEM Restart:](#10-edam-aem-restart)
+*   [11\. Reinstall AEM ACS Commons:](#11-reinstall-aem-acs-commons)
+*   [12\. one time script execution to update permissions for existing content:](#12-one-time-script-execution-to-update-permissions-for-existing-content)
+*   [13\. Post-Deployment Steps:](#13-post-deployment-steps)
+*   [Validation Check list: EDAM 1.x - East - Validation Checklist](#validation-check-list)
 *    [Jenkins and RunDeck Jobs](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
 
-· [Rollback Steps :](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
+· [Rollback Steps :](#rollback-steps)
 
 · 
 
