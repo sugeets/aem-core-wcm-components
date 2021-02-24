@@ -28,7 +28,8 @@ Phase-1.X AEM Set-up and EDAM Deployment Steps for West Coast UAT
 
 This step installs ImageMagick 6.7.8.9-16, Installs JDK, install icc profile from , integrates AEM 6.5 with AppDynamics  & Kibana (file beat) and enable Apache(httpd) & show logs on port 38667
 
-**Sources : [https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config](https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config)** **[https://github.wsgc.com/eCommerce-DevOps/aem-edam-uat-config](https://github.wsgc.com/eCommerce-DevOps/aem-edam-uat-config)**
+**Sources : [https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config](https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config)** 
+**[https://github.wsgc.com/eCommerce-DevOps/aem-edam-uat-config](https://github.wsgc.com/eCommerce-DevOps/aem-edam-uat-config)**
 
 1.  Go to Rundeck job:
 2.  UAT: [https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/deploy-uat-edam-install](https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/deploy-uat-edam-install)
