@@ -3,7 +3,7 @@
 Phase-1.X AEM Set-up and EDAM Deployment Steps for West Coast UAT
 =================================================================
 
-*   [1. AEM Set-up:](#test)
+*   [1. AEM Set-up:](# test)
 *   [2\. AEM Start-up:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
 *   [3\. EDAM config - common:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
 *   [4\. EDAM config - Environment:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
@@ -105,7 +105,7 @@ This step installs required environment specific (run mode) config for EDAM
 12.  Verify the installed version for config, it should show version eg: '1.0.10' , ui.uat.west.apps.config-1.0.9.zip
 13.  Goto /crx/de, open /apps/edam/config.edam-west.uat, it should show the config files 
 
-#test
+# test
 ![](aemwestuat/image004.png?raw=true)
 
 **5\. EDAM Config - oak index:**
