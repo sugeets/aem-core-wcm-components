@@ -3,7 +3,7 @@
 Phase-1.X AEM Set-up and EDAM Deployment Steps for West Coast UAT
 =================================================================
 
-*   [1. AEM Set-up:](#1)
+*   [1. AEM Set-up:](#test)
 *   [2\. AEM Start-up:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
 *   [3\. EDAM config - common:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
 *   [4\. EDAM config - Environment:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
@@ -23,7 +23,7 @@ Phase-1.X AEM Set-up and EDAM Deployment Steps for West Coast UAT
 
 
 
-**# 1. AEM Set-up:**
+**1. AEM Set-up:**
 ------------------
 
 This step installs ImageMagick 6.7.8.9-16, Installs JDK, install icc profile from , integrates AEM 6.5 with AppDynamics  & Kibana (file beat) and enable Apache(httpd) & show logs on port 38667
@@ -158,7 +158,7 @@ This step installs required system user for EDAM
 ![](aemwestuat/image006.png?raw=true)  
 **7\. EDAM Config - namespaces:**
 ----------------------------------------------------------------
-
+# test
   
 **Source** : **[https://github.wsgc.com/eCommerce-Bedrock/enterprise-dam](https://github.wsgc.com/eCommerce-Bedrock/enterprise-dam)**  
 **Destination**: **/apps/edam/install**  
