@@ -23,7 +23,7 @@ Phase-1.X AEM Set-up and EDAM Deployment Steps for West Coast UAT
 
 
 
-# 1 AEM Set-up
+# 1 AEM Set up
 ------------------
 
 This step installs ImageMagick 6.7.8.9-16, Installs JDK, install icc profile from , integrates AEM 6.5 with AppDynamics  & Kibana (file beat) and enable Apache(httpd) & show logs on port 38667
