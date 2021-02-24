@@ -3,23 +3,23 @@
 Phase-1.X AEM Set-up and EDAM Deployment Steps for West Coast UAT
 =================================================================
 
-*   [1. AEM Set-up:](#1aem-set-up)
-*   [2\. AEM Start-up:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [3\. EDAM config - common:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [4\. EDAM config - Environment:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [5\. EDAM Config - oak index:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [6\. EDAM Config - system user:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [7\. EDAM Config - namespaces:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [8\. EDAM Config - ACLs:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [9\. EDAM App code :](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [10\. EDAM AEM Restart:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [11\. AEM Service Pack upgrade:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [12\. EDAM AEM Restart:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [13\. AEM ACS Commons upgrade:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [14\. Post-Deployment Steps: (Execution Time - 30 mins)](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [Validation Checklist: EDAM 1.x - West- Validation Checklist](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
+*   [1\. AEM Set-up:](#1aem-set-up)
+*   [2\. AEM Start-up:](#2aem-set-up)
+*   [3\. EDAM config - common:](#3edam-config-common)
+*   [4\. EDAM config - Environment:](#4edam-config-Environment)
+*   [5\. EDAM Config - oak index:](#5edam-config-oak-index)
+*   [6\. EDAM Config - system user:](#6edam-config-system-user)
+*   [7\. EDAM Config - namespaces:](#7edam-config-namespaces)
+*   [8\. EDAM Config - ACLs:](#8edam-config-acls)
+*   [9\. EDAM App code :](#9edam-app-code)
+*   [10\. EDAM AEM Restart:](#10edam-aem-restart)
+*   [11\. AEM Service Pack upgrade:](#11aem-service-pack-upgrade)
+*   [12\. EDAM AEM Restart:](#12edam-aem-restart)
+*   [13\. AEM ACS Commons upgrade:](#13aem-acs-commons-upgrade)
+*   [14\. Post-Deployment Steps: (Execution Time - 30 mins)](#14post-deployment-steps)
+*   [Validation Checklist: EDAM 1.x - West- Validation Checklist](#validation-checklist )
 
-· [Rollback Step](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
+· [Rollback Step](#rollback-step)
 
 
 
@@ -40,7 +40,7 @@ This step installs ImageMagick 6.7.8.9-16, Installs JDK, install icc profile fr
 
 ![](aemwestuat/image001.png?raw=true)
 
-**2\. AEM Start-up:**
+# 2 AEM Start up
 ---------------------
 
 **Source: [https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config/blob/master/src/main/resources/apps/aemscripts/start](https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config/blob/master/src/main/resources/apps/aemscripts/start)**  
@@ -57,7 +57,7 @@ This step starts the AEM server in primary mode
 
 ![](aemwestuat/image002.png?raw=true)
 
-**3\. EDAM config - common:**
+# 3 EDAM config common
 -----------------------------
 
 This step installs required common  config for EDAM  
@@ -81,7 +81,7 @@ This step installs required common  config for EDAM
 
 **![](aemwestuat/image003.png?raw=true)**
 
-**4\. EDAM config - Environment:**
+# 4 EDAM config  Environment
 ----------------------------------
 
 This step installs required environment specific (run mode) config for EDAM
@@ -105,10 +105,9 @@ This step installs required environment specific (run mode) config for EDAM
 12.  Verify the installed version for config, it should show version eg: '1.0.10' , ui.uat.west.apps.config-1.0.9.zip
 13.  Goto /crx/de, open /apps/edam/config.edam-west.uat, it should show the config files 
 
-# test
 ![](aemwestuat/image004.png?raw=true)
 
-**5\. EDAM Config - oak index:**
+# 5 EDAM Config oak index
 --------------------------------
 
 **Source** : **[https://github.wsgc.com/eCommerce-DevOps/edam-common-config/tree/release/edam/oak-index](https://github.wsgc.com/eCommerce-DevOps/edam-common-config/tree/release/edam/oak-index)**  
@@ -131,7 +130,7 @@ This step installs required oak indexes for EDAM
 14.  You should see the custom indexes
 
 ![](aemwestuat/image005.png?raw=true)  
-**6\. EDAM Config - system user:**
+# 6 EDAM Config system user
 -----------------------------------------------------------------
 
   
@@ -156,9 +155,8 @@ This step installs required system user for EDAM
 15.  Validate all permissions are available
 
 ![](aemwestuat/image006.png?raw=true)  
-**7\. EDAM Config - namespaces:**
+# 7 EDAM Config  namespaces
 ----------------------------------------------------------------
-# test
   
 **Source** : **[https://github.wsgc.com/eCommerce-Bedrock/enterprise-dam](https://github.wsgc.com/eCommerce-Bedrock/enterprise-dam)**  
 **Destination**: **/apps/edam/install**  
@@ -180,7 +178,7 @@ This step installs required system user for EDAM
 14.  It should show wsi namespaces
 
 ![](aemwestuat/image007.png?raw=true)  
-**8\. EDAM Config - ACLs:**
+# 8 EDAM Config ACLs
 ----------------------------------------------------------
 
   
@@ -212,7 +210,7 @@ This step installs required ACLs for EDAM
 
 **![](aemwestuat/image009.png?raw=true)**
 
-**9\. EDAM App code :**
+# 9 EDAM App code 
 -----------------------
 
   
@@ -234,7 +232,7 @@ This step installs required ACLs for EDAM
 
 ![](aemwestuat/image010.png?raw=true)
 
-**10\. EDAM AEM Restart:**
+# 10 EDAM AEM Restart
 --------------------------
 
 **This step restarts AEM** 
@@ -249,7 +247,7 @@ This step installs required ACLs for EDAM
 8.  UAT: [aemsac-vicn003.wsgc.com](http://aemsac-vicn003.wsgc.com/):4501/
 
 ![](aemwestuat/image011.png?raw=true)  
-**11\. AEM Service Pack upgrade:**
+# 11 AEM Service Pack upgrade
 -----------------------------------------------------------------
 
   
@@ -270,7 +268,7 @@ This step installs required service pack to the existing AEM version
 
 ![](aemwestuat/image012.png?raw=true)
 
-**12\. EDAM AEM Restart:**
+# 12 EDAM AEM Restart
 --------------------------
 
   
@@ -292,7 +290,7 @@ This step installs required service pack to the existing AEM version
 ![](aemwestuat/image013.png?raw=true)
 ----------------------------
 
-**13\. AEM ACS Commons upgrade:**
+# 13 AEM ACS Commons upgrade 
 ---------------------------------
 
 **Source :**  
@@ -312,38 +310,72 @@ This step installs required AEM ACS Commons
 10.  Verify the three ACS Commons packages
 
 ![](aemwestuat/image014.png?raw=true)  
-**14\. Post-Deployment Steps: (Execution Time - 30 mins)**
+# 14 Post Deployment Steps  (Execution Time - 30 mins)**
 -----------------------------------------------------------------------------------------
 
-**S.No**
+<div>
 
-**Jira-id**
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border-top-color: initial; border-top-style: none; border-top-width: initial; border-right-color: initial; border-right-style: none; border-right-width: initial; border-bottom-color: initial; border-bottom-style: none; border-bottom-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial;">
+ <colgroup><col><col><col><col></colgroup>
+ <tbody><tr>
+  <td style="border-top-color: windowtext; border-top-style: solid; border-top-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-left-color: windowtext; border-left-style: solid; border-left-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal" align="center" style="text-align: center;"><b>S.No</b></p>
+  </td>
+  <td style="border-top-color: windowtext; border-top-style: solid; border-top-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-left-color: initial; border-left-style: none; border-left-width: initial; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal" align="center" style="text-align: center;"><b>Jira-id</b></p>
+  </td>
+  <td style="border-top-color: windowtext; border-top-style: solid; border-top-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-left-color: initial; border-left-style: none; border-left-width: initial; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal" align="center" style="text-align: center;"><b>User Story</b></p>
+  </td>
+  <td style="border-top-color: windowtext; border-top-style: solid; border-top-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-left-color: initial; border-left-style: none; border-left-width: initial; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal" align="center" style="text-align: center;"><b>Post Deployment
+  Steps</b></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside: avoid;">
+  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-left-color: windowtext; border-left-style: solid; border-left-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">2</p>
+  </td>
+  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">TRISUL-7</p>
+  </td>
+  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal"><span class="summary">Duo Security SAML SSO Setup</span></p>
+  </td>
+  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">Detailed steps here - <a href="../../../../../../display/PdM/Configure+SAML+Integration+on+EDAM+AEM+Environments">Configure
+  SAML Integration on EDAM AEM Environments</a></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside: avoid;">
+  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-left-color: windowtext; border-left-style: solid; border-left-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">3</p>
+  </td>
+  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">NA</p>
+  </td>
+  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">Sync Workflow</p>
+  </td>
+  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <ol start="1" type="1">
+   <li class="MsoNormal">WorkflowGo to /editor.html/conf/global/settings/workflow/models/dam/update_asset.html
+       and click 'Sync'</li>
+   <li class="MsoNormal">Go to
+       /conf/global/settings/workflow/models/dam/ws_legacy_to_edam_post_migration_workflow
+       and 'Sync'</li>
+  </ol>
+  </td>
+ </tr>
+</tbody></table>
 
-**User Story**
+</div>
 
-**Post Deployment Steps**
-
-2
-
-TRISUL-7
-
-Duo Security SAML SSO Setup
-
-Detailed steps here - [Configure SAML Integration on EDAM AEM Environments](../../../../../../display/PdM/Configure+SAML+Integration+on+EDAM+AEM+Environments)
-
-3
-
-NA
-
-Sync Workflow
-
-1.  WorkflowGo to /editor.html/conf/global/settings/workflow/models/dam/update\_asset.html and click 'Sync'
-2.  Go to /conf/global/settings/workflow/models/dam/ws\_legacy\_to\_edam\_post\_migration\_workflow and 'Sync'
-
-**Validation Checklist: [EDAM 1.x - West- Validation Checklist](../../../../../../display/PdM/EDAM+1.x+-+West-+Validation+Checklist)**
+# Validation Checklist 
+[EDAM 1.x - West- Validation Checklist](../../../../../../display/PdM/EDAM+1.x+-+West-+Validation+Checklist)**
 --------------------------------------------------------------------------------------------------------------------------------------
 
-**Rollback Step**
+# Rollback Step
 =================
 
 Restore from VM backup snapshot (step #1 of deployment - [Phase-1.X AEM Set-up and EDAM Deployment Steps for West Coast UAT](https://confluence.wsgc.com/pages/viewpage.action?pageId=284238230#Phase1.xWSMigrationonWestCoastEDAMDeployment/RollbackStepsforUAT-1.TakeSnapshotofWestCoastEDAMServerVM):)
