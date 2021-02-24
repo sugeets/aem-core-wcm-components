@@ -6,10 +6,10 @@ Phase-1.X AEM Set-up and EDAM Deployment Steps for West Coast UAT
 *   [1\. AEM Set-up:](#1aem-set-up)
 *   [2\. AEM Start-up:](#2-aem-start-up)
 *   [3\. EDAM config - common:](#3-edam-config-common)
-*   [4\. EDAM config - Environment:](#4-edam-config-environment)
+*   [4\. EDAM config - Environment:](#4-edam-config--environment)
 *   [5\. EDAM Config - oak index:](#5-edam-config-oak-index)
 *   [6\. EDAM Config - system user:](#6-edam-config-system-user)
-*   [7\. EDAM Config - namespaces:](#7-edam-config-namespaces)
+*   [7\. EDAM Config - namespaces:](#7-edam-config--namespaces)
 *   [8\. EDAM Config - ACLs:](#8-edam-config-acls)
 *   [9\. EDAM App code :](#9-edam-app-code)
 *   [10\. EDAM AEM Restart:](#10-edam-aem-restart)
@@ -310,7 +310,7 @@ This step installs required AEM ACS Commons
 10.  Verify the three ACS Commons packages
 
 ![](aemwestuat/image014.png?raw=true)  
-# 14 Post Deployment Steps  (Execution Time - 30 mins)**
+# 14 Post Deployment Steps  (Execution Time - 30 mins)
 -----------------------------------------------------------------------------------------
 
 <div>
@@ -372,7 +372,7 @@ This step installs required AEM ACS Commons
 </div>
 
 # Validation Checklist 
-[EDAM 1.x - West- Validation Checklist](../../../../../../display/PdM/EDAM+1.x+-+West-+Validation+Checklist)**
+[EDAM 1.x - West- Validation Checklist](../../../../../../display/PdM/EDAM+1.x+-+West-+Validation+Checklist)
 --------------------------------------------------------------------------------------------------------------------------------------
 
 # Rollback Step
