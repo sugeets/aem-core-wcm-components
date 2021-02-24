@@ -4,7 +4,7 @@ Phase-1.X AEM Set-up and EDAM Deployment Steps for West Coast UAT
 =================================================================
 
 *   [1\. AEM Set-up:](#1aem-set-up)
-*   [2\. AEM Start-up:](#2-aem-set-up)
+*   [2\. AEM Start-up:](#2-aem-start-up)
 *   [3\. EDAM config - common:](#3-edam-config-common)
 *   [4\. EDAM config - Environment:](#4-edam-config-Environment)
 *   [5\. EDAM Config - oak index:](#5-edam-config-oak-index)
