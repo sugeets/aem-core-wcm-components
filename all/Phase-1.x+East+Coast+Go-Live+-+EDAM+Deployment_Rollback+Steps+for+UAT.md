@@ -16,7 +16,7 @@ Phase-1.x East Coast Go-Live - EDAM Deployment/Rollback Steps for UAT
 *   [12\. one time script execution to update permissions for existing content:](#12-one-time-script-execution-to-update-permissions-for-existing-content)
 *   [13\. Post-Deployment Steps:](#13-post-deployment-steps)
 *   [Validation Check list: EDAM 1.x - East - Validation Checklist](#validation-check-list)
-*    [Jenkins and RunDeck Jobs](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
+*    [Jenkins and RunDeck Jobs](#jenkins-and-rundeck-jobs)
 
 · [Rollback Steps :](#rollback-steps)
 
@@ -334,7 +334,7 @@ Step 6: Once the job run successfully login as either general user or merchant u
 [EDAM 1.x - East - Validation Checklist](https://confluence.wsgc.com/display/PdM/EDAM+1.x+-+East+-+Validation+Checklist)
 -----------------------------------------------------------------------------------------------------------------------------------------
 
- **Jenkins and RunDeck Jobs**
+# Jenkins and RunDeck Jobs
 -----------------------------
 
 *   [RunDeck: Install EDAM Common code](https://rundeck.wsgc.com/rundeck/project/wsgc/job/edit/install-edam-qa-common)
