@@ -2,21 +2,21 @@
 Troubleshooting Guide 1.x
 =========================
 
-*   [TRISUL-176 - Export metadata based on search results - Reporting](#TroubleshootingGuide1.x-TRISUL-176-Expo)
-*   [TRISUL-663 : bulk edit of Metadata for any number of Assets](#TroubleshootingGuide1.x-TRISUL-663:bulk)
-*   [Rollout - High Resolution Threshold](#TroubleshootingGuide1.x-Rollout-HighRes)
-*   [Rollout - Configure Renditions](#TroubleshootingGuide1.x-Rollout-Configu)
-*   [TRISUL-570 : Global Nav - Tabs per Brand to navigate to appropriate server/root folder](#TroubleshootingGuide1.x-TRISUL-570:Glob)
-*   [TRISUL-305 : Admin View - Customize Download Dialog with Rendition Picker, Presets, permissions](#TroubleshootingGuide1.x-TRISUL-305:Admi)
-*   [TRISUL-362 : PB & WS Rollout - Set-up Duo Login](#TroubleshootingGuide1.x-TRISUL-362:PB&W)
-*   [TRISUL-178 : Metadata values self service admin](#TroubleshootingGuide1.x-TRISUL-178:Meta)
-*   [TRISUL-571 & TRISUL-705 : User View - Customize Download Dialog with Rendition Picker, Presets, permissions](#TroubleshootingGuide1.x-TRISUL-571&TRIS)
-*   [TRISUL-350, TRISUL-344 - Retrofit WSI Schema](#TroubleshootingGuide1.x-TRISUL-350,TRIS)
-*   [TRISUL-344 Trisul-350 Trisul-857 Trisul-858 Applying Rules Metadata Cascading](#TroubleshootingGuide1.x-TRISUL-344Trisu)
-*   [TRISUL-885 TRISUL-886 Setup Groups and Permissions](#TroubleshootingGuide1.x-TRISUL-885TRISU)
-*   [TRISUL-661 : Add "Keywords" Metadata to "Overview" section](#TroubleshootingGuide1.x-TRISUL-661:Add")
-*   [RM-23552 : Merchant user and General user are not able to view existing assets](#TroubleshootingGuide1.x-RM-23552:Mercha)
-*   [Guide for Asset Migration from Legacy to EDAM](#TroubleshootingGuide1.x-GuideforAssetMi)
+*   [TRISUL-176 - Export metadata based on search results - Reporting](#trisul-176--export-metadata-based-on-search-results---reporting)
+*   [TRISUL-663 : bulk edit of Metadata for any number of Assets](#trisul-663--bulk-edit-of-metadata-for-any-number-of-assets)
+*   [Rollout - High Resolution Threshold](#rollout---high-resolution-threshold)
+*   [Rollout - Configure Renditions](#rollout---configure-renditions)
+*   [TRISUL-570 : Global Nav - Tabs per Brand to navigate to appropriate server/root folder](#trisul-570--global-nav---tabs-per-brand-to-navigate-to-appropriate-serverroot-folder)
+*   [TRISUL-305 : Admin View - Customize Download Dialog with Rendition Picker, Presets, permissions](#trisul-305-admin-view---customize-download-dialog-with-rendition-picker-presets-permissions)
+*   [TRISUL-362 : PB & WS Rollout - Set-up Duo Login](#trisul-362--pb--ws-rollout---set-up-duo-login)
+*   [TRISUL-178 : Metadata values self service admin](#trisul-178--metadata-values-self-service-admin)
+*   [TRISUL-571 & TRISUL-705 : User View - Customize Download Dialog with Rendition Picker, Presets, permissions](#trisul-571--trisul-705--user-view---customize-download-dialog-with-rendition-picker-presets-permissions)
+*   [TRISUL-350, TRISUL-344 - Retrofit WSI Schema](#trisul-350-trisul-344---retrofit-wsi-schema)
+*   [TRISUL-344 Trisul-350 Trisul-857 Trisul-858 Applying Rules Metadata Cascading](#trisul-344-trisul-350-trisul-857-trisul-858-applying-rules-metadata-cascading)
+*   [TRISUL-885 TRISUL-886 Setup Groups and Permissions](#trisul-885-trisul-886-setup-groups-and-permissions)
+*   [TRISUL-661 : Add "Keywords" Metadata to "Overview" section](#trisul-661--add-keywords-metadata-to-overview-section)
+*   [RM-23552 : Merchant user and General user are not able to view existing assets](#rm-23552--merchant-user-and-general-user-are-not-able-to-view-existing-assets)
+*   [Guide for Asset Migration from Legacy to EDAM](#guide-for-asset-migration-from-legacy-to-edam)
 
 ### TRISUL-176 - **Export metadata based on search results - Reporting**
 
