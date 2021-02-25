@@ -4,9 +4,9 @@ Phase-1.x WS Migration on West Coast - EDAM Deployment/Rollback Steps for UAT
 *   [1\. Take Snapshot of West Coast EDAM Server VM:](#1-take-snapshot-of-west-coast-edam-server-vm)
 *   [2.Disable all DAM related Workflow launchers in EDAM  and enable Migration related Workflow launcher](#2disable-all-dam-related-workflow-launchers-in-edam--and-enable-migration-related-workflow-launcher)
 *   [3.Trigger Rundeck job to migrate assets from legacy to EDAM](#3trigger-rundeck-job-to-migrate-assets-from-legacy-to-edam)
-*   [3.Enable all DAM related Workflow launchers in EDAM and disable Migration related Workflow launcher](#3enable-all-dam-related-workflow-launchers-in-edam-and-disable-migration-related-workflow-launcher)
-*   [4\. Stop AEM Instance](#4-stop-aem-instance)
-*   [5.  Start AEM instance](#5--start-aem-instance)
+*   [4.Enable all DAM related Workflow launchers in EDAM and disable Migration related Workflow launcher](#4enable-all-dam-related-workflow-launchers-in-edam-and-disable-migration-related-workflow-launcher)
+*   [5\. Stop AEM Instance](#5-stop-aem-instance)
+*   [6.  Start AEM instance](#6--start-aem-instance)
 *   [Validation checklist: EDAM 1.x - West- Validation Checklist](#validation-checklist-edam-1x---west--validation-checklist)
 
 ·  [Rollback Step](#rollback-step)
@@ -93,7 +93,7 @@ Step 4:  Once job completes, please compare the assets with Legacy dam server wi
 
 ![](https://confluence.wsgc.com/download/attachments/284238208/image2021-2-19_22-25-40.png?version=1&modificationDate=1613753660467&api=v2)
 
-**3.Enable all DAM related Workflow launchers in EDAM and disable Migration related Workflow launcher**
+**4.Enable all DAM related Workflow launchers in EDAM and disable Migration related Workflow launcher**
 -------------------------------------------------------------------------------------------------------
 
 This step enables the required launchers and disables the post migration launcher
@@ -117,7 +117,7 @@ This step enables the required launchers and disables the post migration launche
 
 ![](https://confluence.wsgc.com/download/attachments/284238208/image2021-2-23_23-23-27.png?version=1&modificationDate=1614102727007&api=v2)
 
-**4\. Stop AEM Instance**
+**5\. Stop AEM Instance**
 -------------------------
 
 **Source: [https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config/blob/master/src/main/resources/apps/aemscripts/stop](https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config/blob/master/src/main/resources/apps/aemscripts/start)**  
@@ -135,7 +135,7 @@ Rundeck Job URL: [https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/c896c5e
 
 ![](https://confluence.wsgc.com/download/attachments/284238208/image2021-2-18_15-9-15.png?version=1&modificationDate=1613689756257&api=v2)
 
-**5.  Start AEM instance**
+**6.  Start AEM instance**
 --------------------------
 
 **Source: [https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config/blob/master/src/main/resources/apps/aemscripts/start](https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config/blob/master/src/main/resources/apps/aemscripts/start)**  
