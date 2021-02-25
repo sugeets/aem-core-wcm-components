@@ -37,7 +37,7 @@ This step installs ImageMagick 6.7.8.9-16, Installs JDK, install icc profile fr
 6.  Verify logs and wait until job get finished
 7.  It takes ~10 min
 
-![](image001.png?raw=true)
+![](https://confluence.wsgc.com/download/attachments/284255152/image2021-1-21_19-58-40.png?version=1&modificationDate=1614061908920&api=v2)
 
 **2\. AEM Start-up:**
 ---------------------
