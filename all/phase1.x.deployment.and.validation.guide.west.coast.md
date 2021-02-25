@@ -17,6 +17,7 @@ Phase-1.X AEM Set-up and EDAM Deployment Steps for West Coast UAT
 *   [14\. Enable SSL:](#14-enable-ssl)
 *   [15\. Post-Deployment Steps: (Execution Time - 30 mins)](#15-post-deployment-steps-execution-time---30-mins)
 *   [Validation Checklist: EDAM 1.x - West- Validation Checklist](#validation-checklist-edam-1x---west--validation-checklist)
+
 ·  [Rollback Step](#rollback-step)
 
 **1. AEM Set-up:**
