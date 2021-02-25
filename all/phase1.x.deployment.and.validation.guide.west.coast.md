@@ -1,26 +1,23 @@
 Phase-1.X AEM Set-up and EDAM Deployment Steps for West Coast UAT
 =================================================================
 
-*   [1. AEM Set-up:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [2\. AEM Start-up:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [3\. EDAM config - common:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [4\. EDAM config - Environment:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [5\. EDAM Config - oak index:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [6\. EDAM Config - system user:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [7\. EDAM Config - namespaces:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [8\. EDAM Config - ACLs:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [9\. EDAM App code :](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [10\. EDAM AEM Restart:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [11\. AEM Service Pack upgrade:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [12\. EDAM AEM Restart:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-
-*   [13\. AEM ACS Commons upgrade:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [14\. Enable SSL:](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-
-*   [15\. Post-Deployment Steps: (Execution Time - 30 mins)](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-*   [Validation Checklist: EDAM 1.x - West- Validation Checklist](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
-
-·  [Rollback Step](#Phase1.XAEMSetupandEDAMDeploymentStepsf)
+*   [1. AEM Set-up:](#1aem-set-up)
+*   [2\. AEM Start-up:](#2-aem-start-up)
+*   [3\. EDAM config - common:](#3-edam-config---common)
+*   [4\. EDAM config - Environment:](#4-edam-config---environment)
+*   [5\. EDAM Config - oak index:](#5-edam-config---oak-index)
+*   [6\. EDAM Config - system user:](#6-edam-config---system-user)
+*   [7\. EDAM Config - namespaces:](#7-edam-config---namespaces)
+*   [8\. EDAM Config - ACLs:](#8-edam-config---acls)
+*   [9\. EDAM App code :](#9-edam-app-code-)
+*   [10\. EDAM AEM Restart:](#10-edam-aem-restart)
+*   [11\. AEM Service Pack upgrade:](#11-aem-service-pack-upgrade)
+*   [12\. EDAM AEM Restart:](#12-edam-aem-restart)
+*   [13\. AEM ACS Commons upgrade:](#13-aem-acs-commons-upgrade)
+*   [14\. Enable SSL:](#14-enable-ssl)
+*   [15\. Post-Deployment Steps: (Execution Time - 30 mins)](#15-post-deployment-steps-execution-time---30-mins)
+*   [Validation Checklist: EDAM 1.x - West- Validation Checklist](#validation-checklist-edam-1x---west--validation-checklist)
+·  [Rollback Step](#rollback-step)
 
 **1. AEM Set-up:**
 ------------------
