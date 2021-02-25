@@ -2,48 +2,48 @@ Phase-1.x WS Migration on West Coast - EDAM Deployment/Rollback Steps for UAT
 =============================================================================
 
 *   [1\. Take Snapshot of West Coast EDAM Server VM:](#1-take-snapshot-of-west-coast-edam-server-vm)
-*   [2.Disable all DAM related Workflow launchers in EDAM  and enable Migration related Workflow launcher](#2disable-all-dam-related-workflow-launchers-in-edam-and-enable-migration-related-workflow-launcher)
-*   [2.Trigger Rundeck job to migrate assets from legacy to EDAM](#2trigger-rundeck-job-to-migrate-assets-from-legacy-to-edam)
+*   [2.Disable all DAM related Workflow launchers in EDAM  and enable Migration related Workflow launcher](#2disable-all-dam-related-workflow-launchers-in-edam--and-enable-migration-related-workflow-launcher)
+*   [3.Trigger Rundeck job to migrate assets from legacy to EDAM](#3trigger-rundeck-job-to-migrate-assets-from-legacy-to-edam)
 *   [3.Enable all DAM related Workflow launchers in EDAM and disable Migration related Workflow launcher](#3enable-all-dam-related-workflow-launchers-in-edam-and-disable-migration-related-workflow-launcher)
 *   [4\. Stop AEM Instance](#4-stop-aem-instance)
-*   [5.  Start AEM instance](#5-start-aem-instance)
+*   [5.  Start AEM instance](#5--start-aem-instance)
 *   [Validation checklist: EDAM 1.x - West- Validation Checklist](#validation-checklist-edam-1x---west--validation-checklist)
 
-·  [Rollback Step](#rollback-step)
+·  [Rollback Step](#rollback-step)
 
 **1\. Take Snapshot of West Coast EDAM Server VM:**
 ---------------------------------------------------
 
 Project team to raise a WSI SNOW ticket to take a snapshot of west coast UAT server VM before deployment begins.
 
-  **For Server details please refer the following URL:****  
+  **For Server details please refer the following URL:****  
 **[EDAM - CNAME](/display/PS/EDAM+-+CNAME)****
 
-**2.Disable all DAM related Workflow launchers in EDAM  and enable Migration related Workflow launcher**
+**2.Disable all DAM related Workflow launchers in EDAM  and enable Migration related Workflow launcher**
 --------------------------------------------------------------------------------------------------------
 
 This step disables the required launchers and enables the post migration launcher
 
-**Source** : [https://github.wsgc.com/eCommerce-DevOps/edam-common-config/tree/release/edam/enable-disable-launchers](https://github.wsgc.com/eCommerce-DevOps/edam-common-config/tree/release/edam/enable-disable-launchers)  
-**Destination**: **/conf**
+**Source** : [https://github.wsgc.com/eCommerce-DevOps/edam-common-config/tree/release/edam/enable-disable-launchers](https://github.wsgc.com/eCommerce-DevOps/edam-common-config/tree/release/edam/enable-disable-launchers)  
+**Destination**: **/conf**
 
-1.  Go to Rundeck job: 
-2.  UAT: [https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/deploy-uat-edam-custom-primary](https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/deploy-uat-edam-custom-primary)
+1.  Go to Rundeck job: 
+2.  UAT: [https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/deploy-uat-edam-custom-primary](https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/deploy-uat-edam-custom-primary)
 3.  Select Coast : 'west'
 4.  Select 'enable-disable-launcher' from drop down for project/type
-5.  Provide version Eg:  '1.0.2'
+5.  Provide version Eg:  '1.0.2'
 6.  Enter AEM admin password
 7.  Click 'Run Job Now' button
-8.  Verify logs and wait until job get finished 
+8.  Verify logs and wait until job get finished 
 9.  It takes ~ 2 min
-10.  Enter URL  on the browser, enter admin credentials
-11.  UAT: [aemsac-vicn003.wsgc.com](http://aemsac-vicn003.wsgc.com/):4501/libs/cq/workflow/admin/console/content/launchers.html
+10.  Enter URL  on the browser, enter admin credentials
+11.  UAT: [aemsac-vicn003.wsgc.com](http://aemsac-vicn003.wsgc.com/):4501/libs/cq/workflow/admin/console/content/launchers.html
 12.  Verify all launchers should be disabled and post migration launcher should be enabled
-13.   It takes ~ 5 minutes time
+13.   It takes ~ 5 minutes time
 
 ![](https://confluence.wsgc.com/download/attachments/284238208/image2021-2-23_23-20-7.png?version=1&modificationDate=1614102526457&api=v2)
 
-**2.Trigger Rundeck job to migrate assets from legacy to EDAM**
+**3.Trigger Rundeck job to migrate assets from legacy to EDAM**
 ---------------------------------------------------------------
 
 Rundeck URL: [https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/edam-asset-migration-nonprd](https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/edam-asset-migration-nonprd)
@@ -52,7 +52,7 @@ Steps:
 
 Step 1: Please hit the rundeck URL on the browser
 
-Step 2:  please provide following fields:  
+Step 2:  please provide following fields:  
 src\_host : damdevrk1p:38781
 
 src\_user : Enter user name who is having access to asset paths
@@ -61,11 +61,11 @@ src\_pass: Enter password which is associated the user which entered in above fi
 
 src\_path: Enter src path like content/dam/ws for williams-sonoma and content/dam/wsh for williams-sonoma-home
 
-dst\_env : select environment as  uat
+dst\_env : select environment as  uat
 
 dst\_coast: select coast as west
 
-dst\_host:  this will auto populate based on environment selection no action required here
+dst\_host:  this will auto populate based on environment selection no action required here
 
 dst\_port: 4501, default port populate as 4501, no action required.
 
@@ -87,7 +87,7 @@ Log Level: Default check box is normal no action required.
 
 Step 3: Click the run job now button and monitor the logs
 
-Step 4:  Once job completes, please compare the assets with Legacy dam server with EDAM server.
+Step 4:  Once job completes, please compare the assets with Legacy dam server with EDAM server.
 
 5: It takes 48 hours-72 hours of time
 
@@ -98,29 +98,29 @@ Step 4:  Once job completes, please compare the assets with Legacy dam server w
 
 This step enables the required launchers and disables the post migration launcher
 
-**Source** : [https://github.wsgc.com/eCommerce-DevOps/edam-common-config/tree/release/edam/enable-disable-launchers](https://github.wsgc.com/eCommerce-DevOps/edam-common-config/tree/release/edam/enable-disable-launchers)  
-**Destination**: **/conf**
+**Source** : [https://github.wsgc.com/eCommerce-DevOps/edam-common-config/tree/release/edam/enable-disable-launchers](https://github.wsgc.com/eCommerce-DevOps/edam-common-config/tree/release/edam/enable-disable-launchers)  
+**Destination**: **/conf**
 
-1.  Go to Rundeck job: 
+1.  Go to Rundeck job: 
 2.  UAT: [https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/2800d819-d92e-47e2-b52e-63b08360fced](https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/2800d819-d92e-47e2-b52e-63b08360fced)
 3.  Select Coast : 'west'
 4.  Select 'enable-disable-launcher' from drop down for project/type
-5.  Provide version Eg:  '1.0.2'
+5.  Provide version Eg:  '1.0.2'
 6.  Enter AEM admin password
 7.  Click 'Run Job Now' button
-8.  Verify logs and wait until job get finished 
+8.  Verify logs and wait until job get finished 
 9.  It takes ~ 2 min
-10.  Enter URL  on the browser, enter admin credentials
-11.  UAT: [aemsac-vicn003.wsgc.com](http://aemsac-vicn003.wsgc.com/):4501/libs/cq/workflow/admin/console/content/launchers.html
+10.  Enter URL  on the browser, enter admin credentials
+11.  UAT: [aemsac-vicn003.wsgc.com](http://aemsac-vicn003.wsgc.com/):4501/libs/cq/workflow/admin/console/content/launchers.html
 12.  Verify all launchers should be disabled and post migration launcher should be enabled
-13.   It takes ~ 5 minutes time
+13.   It takes ~ 5 minutes time
 
 ![](https://confluence.wsgc.com/download/attachments/284238208/image2021-2-23_23-23-27.png?version=1&modificationDate=1614102727007&api=v2)
 
 **4\. Stop AEM Instance**
 -------------------------
 
-**Source: [https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config/blob/master/src/main/resources/apps/aemscripts/stop](https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config/blob/master/src/main/resources/apps/aemscripts/start)**  
+**Source: [https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config/blob/master/src/main/resources/apps/aemscripts/stop](https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config/blob/master/src/main/resources/apps/aemscripts/start)**  
 This step stop the AEM server
 
 Rundeck Job URL: [https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/c896c5ea-8736-46cf-bb03-77265dd16316](https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/c896c5ea-8736-46cf-bb03-77265dd16316)
@@ -128,26 +128,26 @@ Rundeck Job URL: [https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/c896c5e
 1.  Go to Rundeck job
 2.  Select 'coast:west'
 3.  Click 'Run Job Now' button
-4.  Verify logs and wait until job get finished 
+4.  Verify logs and wait until job get finished 
 5.  It takes ~5 min
-6.  Verify by entering following  URL  on the browser.
+6.  Verify by entering following  URL  on the browser.
 7.  UAT: [aemsac-vicn003.wsgc.com](http://aemsac-vicn003.wsgc.com):4501/
 
 ![](https://confluence.wsgc.com/download/attachments/284238208/image2021-2-18_15-9-15.png?version=1&modificationDate=1613689756257&api=v2)
 
-**5.  Start AEM instance**
+**5.  Start AEM instance**
 --------------------------
 
-**Source: [https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config/blob/master/src/main/resources/apps/aemscripts/start](https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config/blob/master/src/main/resources/apps/aemscripts/start)**  
+**Source: [https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config/blob/master/src/main/resources/apps/aemscripts/start](https://github.wsgc.com/eCommerce-DevOps/aem-edam-common-config/blob/master/src/main/resources/apps/aemscripts/start)**  
 This step starts the AEM server in primary mode
 
 1.  Go to Rundeck job:
-2.  UAT: [https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/wsgc-deploy-uat-edam-primary-start](https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/wsgc-deploy-uat-edam-primary-start)
+2.  UAT: [https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/wsgc-deploy-uat-edam-primary-start](https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/wsgc-deploy-uat-edam-primary-start)
 3.  Select 'coast:west '
 4.  Click 'Run Job Now' button
-5.  Verify logs and wait until job get finished 
+5.  Verify logs and wait until job get finished 
 6.  It takes ~10 min
-7.  Verify by entering following  URL  on the browser.
+7.  Verify by entering following  URL  on the browser.
 8.  UAT: [aemsac-vicn003.wsgc.com](http://aemsac-vicn003.wsgc.com):4501/
 
 ![](https://confluence.wsgc.com/download/attachments/284238208/image2021-2-18_15-40-55.png?version=1&modificationDate=1613691679797&api=v2)
