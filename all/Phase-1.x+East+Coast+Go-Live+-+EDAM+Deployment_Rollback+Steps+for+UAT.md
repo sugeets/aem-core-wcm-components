@@ -59,7 +59,7 @@ This step uninstalls ui.apps.uat.config for EDAM
 13.  Verify in the package manger ui.apps.uat.config-1.0.5.zip should not be there. 
 14.  Goto /crx/de, open /apps/edam/config.edam-we.uat, it should be removed
 
-![](aemeastuat/image001.png?raw=true)
+![](https://confluence.wsgc.com/download/attachments/284255152/image2021-1-21_19-58-40.png?version=1&modificationDate=1614061908920&api=v2)
 
 # 3 Stop AEM Server 
 ----------------------
