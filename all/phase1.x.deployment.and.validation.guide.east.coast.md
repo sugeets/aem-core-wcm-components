@@ -2,26 +2,26 @@
 Phase-1.x East Coast Go-Live - EDAM Deployment/Rollback Steps for UAT
 =====================================================================
 
-*   [1\. Take Snapshot of East Coast EDAM Server VM:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [2\. Remove  ui.apps.uat.config :](#Phase1.xEastCoastGoLiveEDAMDeployment/R) 
-*   [3.Remove ui.uat.acls :](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [4\. Stop AEM Server:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [5\. Change run-mode from edam-we to edam-east and install ICC profile:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [6\. Start AEM Server:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [7\. EDAM config - common:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [8\. EDAM config - Environment:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [9\. EDAM Config - oak index:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
+*   [1\. Take Snapshot of East Coast EDAM Server VM:](#1-take-snapshot-of-east-coast-edam-server-vm)
+*   [2\. Remove  ui.apps.uat.config :](#2-remove-uiappsuatconfig-) 
+*   [3.Remove ui.uat.acls :](#3remove-uiuatacls-)
+*   [4\. Stop AEM Server:](#4-stop-aem-server)
+*   [5\. Change run-mode from edam-we to edam-east and install ICC profile:](#5-change-run-mode-from-edam-we-to-edam-east-and-install-icc-profile)
+*   [6\. Start AEM Server:](#6-start-aem-server)
+*   [7\. EDAM config - common:](#7-edam-config---common)
+*   [8\. EDAM config - Environment:](#8-edam-config---environment)
+*   [9\. EDAM Config - oak index:](#9-edam-config---oak-index)
 
-*   [10\. EDAM Config - ACLs:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [11\. EDAM App code :](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [12\. EDAM AEM Restart:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [13\. Reinstall AEM ACS Commons:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [14\. one time script execution to update permissions for existing content:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [15\. Post-Deployment Steps:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [Validation Check list: EDAM 1.x - East - Validation Checklist](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*    [Jenkins and RunDeck Jobs](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
+*   [10\. EDAM Config - ACLs:](#10-edam-config---acls)
+*   [11\. EDAM App code :](#11-edam-app-code-)
+*   [12\. EDAM AEM Restart:](#12-edam-aem-restart)
+*   [13\. Reinstall AEM ACS Commons:](#13-reinstall-aem-acs-commons)
+*   [14\. one time script execution to update permissions for existing content:](#14-one-time-script-execution-to-update-permissions-for-existing-content)
+*   [15\. Post-Deployment Steps:](#15-post-deployment-steps)
+*   [Validation Check list: EDAM 1.x - East - Validation Checklist](#validation-check-list-edam-1x---east---validation-checklist)
+*    [Jenkins and RunDeck Jobs](#jenkins-and-rundeck-jobs)
 
-·  [Rollback Steps :](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
+·  [Rollback Steps :](#rollback-steps-)
 
 
 *   [install ui.apps.uat.config:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
@@ -363,7 +363,7 @@ Step 6: Once the job run successfully login as either general user or merchant u
 
 </div>
 
-**Validation Check list**: [EDAM 1.x - East - Validation Checklist](/display/PdM/EDAM+1.x+-+East+-+Validation+Checklist)
+**Validation Check list**: [EDAM 1.x - East - Validation Checklist](https://confluence.wsgc.com/display/PdM/EDAM+1.x+-+East+-+Validation+Checklist)
 ------------------------------------------------------------------------------------------------------------------------
 
  **Jenkins and RunDeck Jobs**
@@ -645,7 +645,7 @@ This step clears JS and CSS cache at AEM level.
 
 **option 2**:
 
-Restore from VM backup snapshot (step #1 of deployment - [Phase-1.x East Coast Go-Live - EDAM Deployment/Rollback Steps for UAT#1.TakeSnapshotofEastCoastEDAMServerVM](/pages/viewpage.action?pageId=284238192#Phase1.xEastCoastGoLiveEDAMDeployment/RollbackStepsforUAT-1.TakeSnapshotofEastCoastEDAMServerVM):)
+Restore from VM backup snapshot (step #1 of deployment - [Phase-1.x East Coast Go-Live - EDAM Deployment/Rollback Steps for UAT#1.TakeSnapshotofEastCoastEDAMServerVM](https://confluence.wsgc.com/pages/viewpage.action?pageId=284238192#Phase1.xEastCoastGoLiveEDAMDeployment/RollbackStepsforUAT-1.TakeSnapshotofEastCoastEDAMServerVM):)
 
 **Current UAT and Production package installed versions list**
 
