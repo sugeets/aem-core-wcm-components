@@ -24,15 +24,15 @@ Phase-1.x East Coast Go-Live - EDAM Deployment/Rollback Steps for UAT
 ·  [Rollback Steps :](#rollback-steps-)
 
 
-*   [install ui.apps.uat.config:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
+*   [install ui.apps.uat.config:](#install-uiappsuatconfig)
 
-*   [Reinstall edam.ui.apps-<version>.zip:](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
+*   [Reinstall edam.ui.apps-<version>.zip:](#reinstall-edamuiapps-zip)
 
-*   [edam.ui.apps](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [ui.oak.index](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [ui.apps.common.config](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [ui.rep.namespaces](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
-*   [ui.system.user](#Phase1.xEastCoastGoLiveEDAMDeployment/R)
+*   [edam.ui.apps](#edamuiapps)
+*   [ui.oak.index](#uioakindex)
+*   [ui.apps.common.config](#uiappscommonconfig)
+*   [ui.rep.namespaces](#uirepnamespaces)
+*   [ui.system.user](#uisystemuser)
 
 **1\. Take Snapshot of East Coast EDAM Server VM:**
 ---------------------------------------------------
