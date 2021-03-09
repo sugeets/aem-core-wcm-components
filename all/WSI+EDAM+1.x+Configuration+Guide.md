@@ -121,86 +121,8 @@ click on it.</p>
 
 </div>
 
-<h4 id="WSIEDAM1.xConfigurationGuide-Config#2:EDAMUtilityConfiguration">Config
-#2 : EDAM Utility Configuration</h4>
-
-<div>
-
-<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" width="100%" style="width: 100%; border-collapse: collapse; border-top-color: initial; border-top-style: none; border-top-width: initial; border-right-color: initial; border-right-style: none; border-right-width: initial; border-bottom-color: initial; border-bottom-style: none; border-bottom-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial;">
- <colgroup><col style="width: 3.86435%;"><col style="width: 28.1335%;"><col style="width: 27.3436%;"><col style="width: 40.6585%;"></colgroup>
- <tbody><tr>
-  <td style="border-top-color: windowtext; border-top-style: solid; border-top-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-left-color: windowtext; border-left-style: solid; border-left-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;"></td>
-  <td colspan="3" style="border-top-color: windowtext; border-top-style: solid; border-top-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-left-color: initial; border-left-style: none; border-left-width: initial; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
-  <p class="MsoNormal" align="center" style="text-align: center;"><b><span style="color: rgb(34, 34, 34);">com.wsgc.ecommerce.edam.core.services.impl.CommonJcrEdamService</span></b></p>
-  </td>
- </tr>
- <tr>
-  <td rowspan="2" style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-left-color: windowtext; border-left-style: solid; border-left-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
-  <p align="center" style="text-align: center;"><b>S. No</b></p>
-  </td>
-  <td rowspan="2" style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
-  <p align="center" style="text-align: center;"><b>Property</b></p>
-  </td>
-  <td colspan="2" style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
-  <p align="center" style="text-align: center;"><b>Property Value</b></p>
-  </td>
- </tr>
- <tr>
-  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
-  <p align="center" style="text-align: center;"><b>East Coast</b></p>
-  </td>
-  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
-  <p align="center" style="text-align: center;"><b>West Coast</b></p>
-  </td>
- </tr>
- <tr style="page-break-inside: avoid;">
-  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-left-color: windowtext; border-left-style: solid; border-left-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
-  <p class="MsoNormal">1</p>
-  </td>
-  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
-  <p><span style="color: rgb(34, 34, 34);">Offset Value</span></p>
-  </td>
-  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
-  <p>100</p>
-  </td>
-  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
-  <p>100</p>
-  </td>
- </tr>
- <tr style="page-break-inside: avoid;">
-  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-left-color: windowtext; border-left-style: solid; border-left-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
-  <p class="MsoNormal">2</p>
-  </td>
-  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
-  <p><span style="color: rgb(34, 34, 34);">Assets list partition value</span></p>
-  </td>
-  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
-  <p>1000</p>
-  </td>
-  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
-  <p>1000</p>
-  </td>
- </tr>
- <tr style="page-break-inside: avoid;">
-  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-left-color: windowtext; border-left-style: solid; border-left-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
-  <p class="MsoNormal">3</p>
-  </td>
-  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
-  <p class="MsoNormal">getBrandAssetsAcls</p>
-  </td>
-  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
-  <p class="MsoNormal">[/content/dam/west-elm=APR_EDAM_QA_WE_MERCHANTS\,APR_EDAM_QA_WE_GENERAL]</p>
-  </td>
-  <td style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
-  <p class="MsoNormal">[/content/dam/west-elm=APR_EDAM_QA_WE_MERCHANTS\,APR_EDAM_QA_WE_GENERAL]</p>
-  </td>
- </tr>
-</tbody></table>
-
-</div>
-
-<h4 id="WSIEDAM1.xConfigurationGuide-Config#3:Metadataschemaupdateexclusionofdropdownpropertynamesconfig">Config
-#3 : Metadata schema update exclusion of dropdown property names config</h4>
+<h4 id="WSIEDAM1.xConfigurationGuide-Config#2:Metadataschemaupdateexclusionofdropdownpropertynamesconfig">Config
+#2 : Metadata schema update exclusion of dropdown property names config</h4>
 
 <div>
 
@@ -245,8 +167,8 @@ click on it.</p>
 
 </div>
 
-<h4 id="WSIEDAM1.xConfigurationGuide-Config#4:ConfigurationcreatedbyApacheSlingJCRInstaller">Config
-#4 :&nbsp;Configuration created by Apache Sling JCR Installer</h4>
+<h4 id="WSIEDAM1.xConfigurationGuide-Config#3:ConfigurationcreatedbyApacheSlingJCRInstaller">Config
+#3 :&nbsp;Configuration created by Apache Sling JCR Installer</h4>
 
 <div>
 
@@ -487,8 +409,8 @@ click on it.</p>
 
 </div>
 
-<h4 id="WSIEDAM1.xConfigurationGuide-Config#5:ContainsConfigurationforACLpoliciesforlevelsofusers.">Config
-#5 :&nbsp;Contains Configuration for ACL policies for levels of users.</h4>
+<h4 id="WSIEDAM1.xConfigurationGuide-Config#4:ContainsConfigurationforACLpoliciesforlevelsofusers.">Config
+#4 :&nbsp;Contains Configuration for ACL policies for levels of users.</h4>
 
 <div>
 
@@ -581,8 +503,8 @@ click on it.</p>
 
 </div>
 
-<h4 id="WSIEDAM1.xConfigurationGuide-Config#6:ConfigurationcreatedbyApacheSlingJCRInstaller">Config
-#6 :&nbsp;Configuration created by Apache Sling JCR Installer</h4>
+<h4 id="WSIEDAM1.xConfigurationGuide-Config#5:ConfigurationcreatedbyApacheSlingJCRInstaller">Config
+#5 :&nbsp;Configuration created by Apache Sling JCR Installer</h4>
 
 <div>
 
@@ -675,8 +597,8 @@ click on it.</p>
 
 </div>
 
-<h4 id="WSIEDAM1.xConfigurationGuide-Config#7:Containsconfigurationforiconscorrespondingtoassetstates.">Config
-#7 :&nbsp;Contains configuration for icons corresponding to asset states.</h4>
+<h4 id="WSIEDAM1.xConfigurationGuide-Config#6:Containsconfigurationforiconscorrespondingtoassetstates.">Config
+#6 :&nbsp;Contains configuration for icons corresponding to asset states.</h4>
 
 <div>
 
@@ -718,12 +640,10 @@ click on it.</p>
   <p>wsi:status=approved|/etc/edam/assetStatusIcons/approved.png|approved
   icon,selected|/etc/edam/assetStatusIcons/selected.png|selected
   icon,killed|/etc/edam/assetStatusIcons/killed.png|killed
-  icon,dropped|/etc/edam/assetStatusIcons/dropped.png|dropped
-  icon,in-progress|/etc/edam/assetStatusIcons/inprogress.png|inprogress
+  icon,dropped|/etc/edam/assetStatusIcons/dropped.png|dropped icon,in-progress|/etc/edam/assetStatusIcons/inprogress.png|inprogress
   icon,hold|/etc/edam/assetStatusIcons/hold.png|hold
   icon,do-not-use|/etc/edam/assetStatusIcons/donotuse.png|donotuse
-  icon,for-web-only|/etc/edam/assetStatusIcons/forwebonly.png|forwebonly
-  icon,archive|/etc/edam/assetStatusIcons/archive.png|archive
+  icon,for-web-only|/etc/edam/assetStatusIcons/forwebonly.png|forwebonly icon,archive|/etc/edam/assetStatusIcons/archive.png|archive
   icon,primary-approved|/etc/edam/assetStatusIcons/approved.png|approved
   icon,secondary-approved|/etc/edam/assetStatusIcons/inprogress.png|inprogress
   icon</p>
@@ -2328,7 +2248,7 @@ approved asset viewers. - Updated</span></h4>
 
 </div>
 
-<h4 id="WSIEDAM1.xConfigurationGuide-Config#5:ConfigurationcreatedbyApacheSlingJCRInstaller">Config
+<h4 id="WSIEDAM1.xConfigurationGuide-Config#5:ConfigurationcreatedbyApacheSlingJCRInstaller.1">Config
 #5:&nbsp;Configuration created by Apache Sling JCR Installer</h4>
 
 <div>
@@ -3908,6 +3828,234 @@ com.wsgc.ecommerce.edam.core.services.impl.ThirdPartyContributorConfigServiceFac
   </td>
   <td colspan="6" style="border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
   <p class="MsoNormal">3rd-party-group</p>
+  </td>
+ </tr>
+</tbody></table>
+
+</div>
+
+<h4 id="WSIEDAM1.xConfigurationGuide-Config#17:EDAMUtilityConfiguration">Config
+#17 : EDAM Utility Configuration</h4>
+
+<div>
+
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" width="100%" style="width: 100%; border-collapse: collapse; border-top-color: initial; border-top-style: none; border-top-width: initial; border-right-color: initial; border-right-style: none; border-right-width: initial; border-bottom-color: initial; border-bottom-style: none; border-bottom-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial;">
+ <colgroup><col style="width: 1.25454%;"><col style="width: 4.34001%;"><col style="width: 13.9694%;"><col style="width: 1.76313%;"><col style="width: 13.9694%;"><col style="width: 1.76313%;"><col style="width: 13.9694%;"><col style="width: 1.76313%;"><col style="width: 13.9694%;"><col style="width: 1.76313%;"><col style="width: 13.9694%;"><col style="width: 1.76313%;"><col style="width: 13.9694%;"><col style="width: 1.76313%;"></colgroup>
+ <tbody><tr>
+  <td width="2%" style="width: 2.66%; border-top-color: windowtext; border-top-style: solid; border-top-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-left-color: windowtext; border-left-style: solid; border-left-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;"></td>
+  <td width="100%" colspan="13" style="width: 100%; border-top-color: windowtext; border-top-style: solid; border-top-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-left-color: initial; border-left-style: none; border-left-width: initial; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal" align="center" style="text-align: center;"><b><span style="color: rgb(34, 34, 34);">com.wsgc.ecommerce.edam.core.services.impl.CommonJcrEdamService.config</span></b></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside: avoid;">
+  <td width="2%" style="width: 2.66%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-left-color: windowtext; border-left-style: solid; border-left-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;"></td>
+  <td width="9%" rowspan="3" style="width: 9.24%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;" title="Background colour : Grey" data-highlight-colour="grey">
+  <p align="center" style="text-align: center;">&nbsp;</p>
+  <p align="center" style="text-align: center;">&nbsp;</p>
+  <p align="center" style="text-align: center;"><strong>Property</strong></p>
+  </td>
+  <td width="100%" colspan="12" style="width: 100%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;" title="Background colour : Grey" data-highlight-colour="grey">
+  <p class="MsoNormal" align="center" style="text-align: center;"><strong>Property
+  Value</strong></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="2%" rowspan="2" style="width: 2.66%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-left-color: windowtext; border-left-style: solid; border-left-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p align="center" style="text-align: center;"><b>S. No</b></p>
+  </td>
+  <td width="33%" colspan="2" style="width: 33.62%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p align="center" style="text-align: center;"><b>&nbsp;</b></p>
+  <p align="center" style="text-align: center;"><b>Dev</b></p>
+  </td>
+  <td width="33%" colspan="2" style="width: 33.62%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p align="center" style="text-align: center;"><b>&nbsp;</b></p>
+  <p align="center" style="text-align: center;"><b>QA</b></p>
+  </td>
+  <td width="26%" colspan="2" style="width: 26.38%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p align="center" style="text-align: center;"><b>&nbsp;</b></p>
+  <p align="center" style="text-align: center;"><b>Regression</b></p>
+  </td>
+  <td width="21%" colspan="2" style="width: 21.78%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p align="center" style="text-align: center;"><b>&nbsp;</b></p>
+  <p align="center" style="text-align: center;"><b>Performance</b></p>
+  </td>
+  <td width="18%" colspan="2" style="width: 18.28%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p align="center" style="text-align: center;"><b>&nbsp;</b></p>
+  <p align="center" style="text-align: center;"><b>UAT</b></p>
+  </td>
+  <td width="15%" colspan="2" style="width: 15.74%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p align="center" style="text-align: center;"><b>&nbsp;</b></p>
+  <p align="center" style="text-align: center;"><b>Prod</b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="29%" style="width: 29.84%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p align="center" style="text-align: center;"><b>East Coast</b></p>
+  </td>
+  <td width="3%" style="width: 3.78%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p align="center" style="text-align: center;"><b>West Coast</b></p>
+  </td>
+  <td width="29%" style="width: 29.84%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p align="center" style="text-align: center;"><b>East Coast</b></p>
+  </td>
+  <td width="3%" style="width: 3.78%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p align="center" style="text-align: center;"><b>West Coast</b></p>
+  </td>
+  <td width="23%" style="width: 23.4%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p align="center" style="text-align: center;"><b>East Coast</b></p>
+  </td>
+  <td width="2%" style="width: 2.96%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p align="center" style="text-align: center;"><b>West Coast</b></p>
+  </td>
+  <td width="19%" style="width: 19.34%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p align="center" style="text-align: center;"><b>East Coast</b></p>
+  </td>
+  <td width="2%" style="width: 2.44%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p align="center" style="text-align: center;"><b>West Coast</b></p>
+  </td>
+  <td width="16%" style="width: 16.22%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p align="center" style="text-align: center;"><b>East Coast</b></p>
+  </td>
+  <td width="2%" style="width: 2.04%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p align="center" style="text-align: center;"><b>West Coast</b></p>
+  </td>
+  <td width="13%" style="width: 13.96%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p align="center" style="text-align: center;"><b>East Coast</b></p>
+  </td>
+  <td width="1%" style="width: 1.76%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p align="center" style="text-align: center;"><b>West Coast</b></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside: avoid;">
+  <td width="2%" style="width: 2.66%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-left-color: windowtext; border-left-style: solid; border-left-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">1</p>
+  </td>
+  <td width="9%" style="width: 9.24%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p><span style="color: rgb(34, 34, 34);">Offset Value</span></p>
+  </td>
+  <td width="29%" style="width: 29.84%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>100</p>
+  </td>
+  <td width="3%" style="width: 3.78%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>100</p>
+  </td>
+  <td width="29%" style="width: 29.84%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>100</p>
+  </td>
+  <td width="3%" style="width: 3.78%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>100</p>
+  </td>
+  <td width="23%" style="width: 23.4%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>100</p>
+  </td>
+  <td width="2%" style="width: 2.96%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>100</p>
+  </td>
+  <td width="19%" style="width: 19.34%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>100</p>
+  </td>
+  <td width="2%" style="width: 2.44%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>100</p>
+  </td>
+  <td width="16%" style="width: 16.22%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>100</p>
+  </td>
+  <td width="2%" style="width: 2.04%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>100</p>
+  </td>
+  <td width="13%" style="width: 13.96%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>100</p>
+  </td>
+  <td width="1%" style="width: 1.76%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>100</p>
+  </td>
+ </tr>
+ <tr style="page-break-inside: avoid;">
+  <td width="2%" style="width: 2.66%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-left-color: windowtext; border-left-style: solid; border-left-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">2</p>
+  </td>
+  <td width="9%" style="width: 9.24%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p><span style="color: rgb(34, 34, 34);">Assets list partition value</span></p>
+  </td>
+  <td width="29%" style="width: 29.84%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>1000</p>
+  </td>
+  <td width="3%" style="width: 3.78%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>1000</p>
+  </td>
+  <td width="29%" style="width: 29.84%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>1000</p>
+  </td>
+  <td width="3%" style="width: 3.78%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>1000</p>
+  </td>
+  <td width="23%" style="width: 23.4%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>1000</p>
+  </td>
+  <td width="2%" style="width: 2.96%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>1000</p>
+  </td>
+  <td width="19%" style="width: 19.34%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>1000</p>
+  </td>
+  <td width="2%" style="width: 2.44%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>1000</p>
+  </td>
+  <td width="16%" style="width: 16.22%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>1000</p>
+  </td>
+  <td width="2%" style="width: 2.04%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>1000</p>
+  </td>
+  <td width="13%" style="width: 13.96%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>1000</p>
+  </td>
+  <td width="1%" style="width: 1.76%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>1000</p>
+  </td>
+ </tr>
+ <tr style="page-break-inside: avoid;">
+  <td width="2%" style="width: 2.66%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-left-color: windowtext; border-left-style: solid; border-left-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">3</p>
+  </td>
+  <td width="9%" style="width: 9.24%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">getBrandAssetsAcls</p>
+  </td>
+  <td width="29%" style="width: 29.84%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">[/content/dam/west-elm=APR_EDAM_DEV_WE_MERCHANTS\,APR_EDAM_DEV_WE_GENERAL]</p>
+  </td>
+  <td width="3%" style="width: 3.78%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">Not Applicable</p>
+  </td>
+  <td width="29%" style="width: 29.84%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p>[/content/dam/west-elm\=APR_EDAM_QA_WE_MERCHANTS\,APR_EDAM_QA_WE_GENERAL]</p>
+  </td>
+  <td width="3%" style="width: 3.78%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">Not Applicable</p>
+  </td>
+  <td width="23%" style="width: 23.4%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">[/content/dam/west-elm\=APR_EDAM_QA_WE_MERCHANTS\,APR_EDAM_QA_WE_GENERAL]</p>
+  </td>
+  <td width="2%" style="width: 2.96%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">Not Applicable</p>
+  </td>
+  <td width="19%" style="width: 19.34%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">[/content/dam/west-elm\=APR_EDAM_QA_WE_MERCHANTS\,APR_EDAM_QA_WE_GENERAL]</p>
+  </td>
+  <td width="2%" style="width: 2.44%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">Not Applicable</p>
+  </td>
+  <td width="16%" style="width: 16.22%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">[/content/dam/west-elm=APR_EDAM_UAT_WE_MERCHANTS\,APR_EDAM_UAT_WE_GENERAL]</p>
+  </td>
+  <td width="2%" style="width: 2.04%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">Not Applicable</p>
+  </td>
+  <td width="13%" style="width: 13.96%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">[/content/dam/west-elm=APR_EDAM_WE_MERCHANTS_USERS\,APR_EDAM_WE_GENERAL_USERS]</p>
+  </td>
+  <td width="1%" style="width: 1.76%; border-top-color: initial; border-top-style: none; border-top-width: initial; border-left-color: initial; border-left-style: none; border-left-width: initial; border-bottom-color: windowtext; border-bottom-style: solid; border-bottom-width: 1pt; border-right-color: windowtext; border-right-style: solid; border-right-width: 1pt; padding-top: 3.75pt; padding-right: 3.75pt; padding-bottom: 3.75pt; padding-left: 3.75pt;">
+  <p class="MsoNormal">Not Applicable</p>
   </td>
  </tr>
 </tbody></table>
